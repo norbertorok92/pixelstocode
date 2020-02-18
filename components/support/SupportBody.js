@@ -1,10 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
 import * as Icon from 'react-feather'
-import GoogleMapComponent from "./GoogleMapComponent"
 import 'isomorphic-fetch'
 
-export default class ContactBody extends React.Component {
+export default class SupportBody extends React.Component {
 
     state = {
         submitting: false,
@@ -199,53 +198,6 @@ export default class ContactBody extends React.Component {
                         </div>
                     </div>
                 </section>
-
-                <section className="contact-info-area ptb-80">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-4 col-md-6">
-                                <div className="contact-info-box">
-                                    <div className="icon">
-                                        <Icon.Mail />
-                                    </div>
-                                    <h3>Mail Here</h3>
-                                    <p>
-                                        <Link href="#">
-                                            <a>norbert.torok92@gmail.com</a>
-                                        </Link>
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-4 col-md-6">
-                                <div className="contact-info-box">
-                                    <div className="icon">
-                                        <Icon.Map />
-                                    </div>
-                                    <h3>Face-to-Face Chit-Chat</h3>
-                                    <p>Cluj-Napoca, Romania</p>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
-                                <div className="contact-info-box">
-                                    <div className="icon">
-                                        <Icon.Phone />
-                                    </div>
-                                    <h3>Call Here</h3>
-                                    <p>
-                                        <Link href="#">
-                                            <a>+40 752 299 075</a>
-                                        </Link>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <GoogleMapComponent />
-
             </React.Fragment>
         )
     }

@@ -8,7 +8,7 @@ const slideOptions = {
     loop: true,
     nav: false,
     autoplay: true,
-    dots: false,
+    dots: true,
     responsive: {
         0: {
             items: 1
@@ -48,18 +48,7 @@ class RecentWork extends React.Component {
                                 <div className="single-works">
                                     <img src={require("../../images/works-image/1.jpg")} alt="image" />
 
-                                    <Link href="#">
-                                        <a className="icon">
-                                            <Icon.Settings />
-                                        </a>
-                                    </Link>
-
                                     <div className="works-content">
-                                        <h3>
-                                            <Link href="#">
-                                                <a>Incredible infrastructure</a>
-                                            </Link>
-                                        </h3>
                                         <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
                                     </div>
                                 </div>
@@ -71,18 +60,7 @@ class RecentWork extends React.Component {
                                 <div className="single-works">
                                     <img src={require("../../images/works-image/2.jpg")} alt="image" />
 
-                                    <Link href="#">
-                                        <a className="icon">
-                                            <Icon.Settings />
-                                        </a>
-                                    </Link>
-
                                     <div className="works-content">
-                                        <h3>
-                                            <Link href="#">
-                                                <a>Incredible infrastructure</a>
-                                            </Link>
-                                        </h3>
                                         <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
                                     </div>
                                 </div>
@@ -94,18 +72,7 @@ class RecentWork extends React.Component {
                                 <div className="single-works">
                                     <img src={require("../../images/works-image/3.jpg")} alt="image" />
 
-                                    <Link href="#">
-                                        <a className="icon">
-                                            <Icon.Settings />
-                                        </a>
-                                    </Link>
-
                                     <div className="works-content">
-                                        <h3>
-                                            <Link href="#">
-                                                <a>Incredible infrastructure</a>
-                                            </Link>
-                                        </h3>
                                         <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
                                     </div>
                                 </div>
@@ -117,18 +84,7 @@ class RecentWork extends React.Component {
                                 <div className="single-works">
                                     <img src={require("../../images/works-image/4.jpg")} alt="image" />
 
-                                    <Link href="#">
-                                        <a className="icon">
-                                            <Icon.Settings />
-                                        </a>
-                                    </Link>
-
                                     <div className="works-content">
-                                        <h3>
-                                            <Link href="#">
-                                                <a>Incredible infrastructure</a>
-                                            </Link>
-                                        </h3>
                                         <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
                                     </div>
                                 </div>
@@ -139,19 +95,8 @@ class RecentWork extends React.Component {
                             <div className="col-lg-12">
                                 <div className="single-works">
                                     <img src={require("../../images/works-image/5.jpg")} alt="image" />
-
-                                    <Link href="#">
-                                        <a className="icon">
-                                            <Icon.Settings />
-                                        </a>
-                                    </Link>
                                     
                                     <div className="works-content">
-                                        <h3>
-                                            <Link href="#">
-                                                <a>Incredible infrastructure</a>
-                                            </Link>
-                                        </h3>
                                         <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
                                     </div>
                                 </div>

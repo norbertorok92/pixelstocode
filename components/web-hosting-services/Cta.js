@@ -17,7 +17,7 @@ class Cta extends Component {
                             <div className="cta-right-content">
                                 <div className="hosting-price">
                                     <span>Starting at only</span>
-                                    <h4>$4.75/mo*</h4>
+                                    <h4>$4.95/mo*</h4>
                                 </div>
 
                                 <div className="buy-btn">

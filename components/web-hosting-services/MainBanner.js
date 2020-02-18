@@ -14,13 +14,13 @@ class MainBanner extends Component {
                                     <div className="hosting-banner-content">
                                         <h1>The Best Web Hosting</h1>
                                         <ul>
-                                            <li>FREE Domain Name for 2st Year</li>
+                                            <li>FREE Domain Name for 1st Year</li>
                                             <li>FREE SSL Certificate Included</li>
                                             <li>1-Click Wordpress Install</li>
                                             <li>24/7 Support</li>
                                         </ul>
-                                        <p>Starting at <span>$8.99</span> $3.95/month</p>
-                                        <Link href="#">
+                                        <p>Starting at <span>$9.99</span> $4.95/month</p>
+                                        <Link href="/contact">
                                             <a className="btn btn-primary">Get Started</a>
                                         </Link>
                                     </div>

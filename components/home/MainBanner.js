@@ -14,7 +14,7 @@ const MainBanner = () => {
 									<h1>Secure IT Solutions for a more secure environment</h1>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida</p>
 									
-									<Link href="#">
+									<Link href="/services">
 										<a className="btn btn-primary">Get Started</a>
 									</Link>
 								</div>

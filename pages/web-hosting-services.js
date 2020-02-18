@@ -26,16 +26,27 @@ export default () => (
             <Header />
             <MainBanner />
             <Boxes />
-            <DomainSearch />
             <WhyChoose />
             <Pricing />
-            <Feedback />
             <Partner />
             <Features />
-            <Blog />
             <Cta />
             <Footer />
             <GoTop scrollStepInPx="50" delayInMs="16.66" />
         </Preloader>
     </NoSSR>
 )
+
+
+// <Header />
+// <MainBanner />
+// <Boxes />
+// <DomainSearch />
+// <WhyChoose />
+// <Pricing />
+// <Feedback />
+// <Partner />
+// <Features />
+// <Blog />
+// <Cta />
+// <Footer />

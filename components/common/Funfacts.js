@@ -12,7 +12,7 @@ class Funfacts extends React.Component {
 
     state = {
         projects: 0,
-        codeLines: 0,
+        happyClients: 0,
         ideas: 0,
         cups: 0
     };
@@ -20,14 +20,14 @@ class Funfacts extends React.Component {
     componentDidMount(){
         this.setState({ 
             projects: 27,
-            codeLines: 273.456,
+            happyClients: 23,
             ideas: 19,
             cups: 1368
         });
     }
 
     render(){
-        const { projects, codeLines, ideas, cups } = this.state;
+        const { projects, happyClients, ideas, cups } = this.state;
         return (
             <section className="funfacts-area ptb-80">
                 <div className="container">
@@ -49,9 +49,9 @@ class Funfacts extends React.Component {
                         <div className="col-lg-3 col-md-3 col-6">
                             <div className="funfact">
                                 <h3>
-                                    <Odometer format="d" duration="500" value={codeLines} />
+                                    <Odometer format="d" duration="500" value={happyClients} />
                                 </h3>
-                                <p>Lines Of Code</p>
+                                <p>Happy Clients</p>
                             </div>
                         </div>
     

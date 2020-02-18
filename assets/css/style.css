@@ -1,5 +1,5 @@
 /*
-File: StartP Template Styles
+File: PixelsToCode Styles
 
 * This file contains the styling for the actual tepmlate, this
 is the file you need to edit to change the look of the
@@ -381,15 +381,15 @@ Preloader CSS
 /*================================================
 Navbar CSS
 =================================================*/
-.startp-mobile-nav {
+.pixelstocode-mobile-nav {
   display: none;
 }
 
-.startp-mobile-nav.mean-container .mean-nav ul li a.active {
+.pixelstocode-mobile-nav.mean-container .mean-nav ul li a.active {
   color: var(--main-color);
 }
 
-.startp-nav {
+.pixelstocode-nav {
   background: transparent;
   position: absolute;
   top: 0;
@@ -400,23 +400,23 @@ Navbar CSS
   height: auto;
 }
 
-.startp-nav.p-relative {
+.pixelstocode-nav.p-relative {
   position: relative;
   padding-bottom: 15px;
 }
 
-.startp-nav nav ul {
+.pixelstocode-nav nav ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
 
-.startp-nav nav .navbar-nav .nav-item {
+.pixelstocode-nav nav .navbar-nav .nav-item {
   position: relative;
   padding: 15px 0;
 }
 
-.startp-nav nav .navbar-nav .nav-item a {
+.pixelstocode-nav nav .navbar-nav .nav-item a {
   font-weight: 500;
   font-size: 14px;
   color: #4a6f8a;
@@ -428,15 +428,15 @@ Navbar CSS
   margin-right: 14px;
 }
 
-.startp-nav nav .navbar-nav .nav-item a:hover, .startp-nav nav .navbar-nav .nav-item a:focus, .startp-nav nav .navbar-nav .nav-item a.active {
+.pixelstocode-nav nav .navbar-nav .nav-item a:hover, .pixelstocode-nav nav .navbar-nav .nav-item a:focus, .pixelstocode-nav nav .navbar-nav .nav-item a.active {
   color: var(--main-color);
 }
 
-.startp-nav nav .navbar-nav .nav-item a svg {
+.pixelstocode-nav nav .navbar-nav .nav-item a svg {
   width: 14px;
 }
 
-.startp-nav nav .navbar-nav .nav-item .dropdown-menu {
+.pixelstocode-nav nav .navbar-nav .nav-item .dropdown-menu {
   -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
   background: #ffffff;
@@ -457,12 +457,12 @@ Navbar CSS
   display: block;
 }
 
-.startp-nav nav .navbar-nav .nav-item .dropdown-menu li {
+.pixelstocode-nav nav .navbar-nav .nav-item .dropdown-menu li {
   position: relative;
   padding: 0;
 }
 
-.startp-nav nav .navbar-nav .nav-item .dropdown-menu li a {
+.pixelstocode-nav nav .navbar-nav .nav-item .dropdown-menu li a {
   font-size: 14px;
   font-weight: 500;
   padding: 9px 15px;
@@ -471,11 +471,11 @@ Navbar CSS
   color: #4a6f8a;
 }
 
-.startp-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, .startp-nav nav .navbar-nav .nav-item .dropdown-menu li a:focus, .startp-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
+.pixelstocode-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, .pixelstocode-nav nav .navbar-nav .nav-item .dropdown-menu li a:focus, .pixelstocode-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
   color: var(--main-color);
 }
 
-.startp-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
+.pixelstocode-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
   position: absolute;
   left: 190px;
   top: 0;
@@ -483,63 +483,63 @@ Navbar CSS
   visibility: hidden !important;
 }
 
-.startp-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
+.pixelstocode-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
   color: #4a6f8a;
 }
 
-.startp-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .startp-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .startp-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
+.pixelstocode-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .pixelstocode-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .pixelstocode-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
   color: var(--main-color);
 }
 
-.startp-nav nav .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
+.pixelstocode-nav nav .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
   opacity: 1 !important;
   visibility: visible !important;
   top: -20px !important;
 }
 
-.startp-nav nav .navbar-nav .nav-item .dropdown-menu li:hover a {
+.pixelstocode-nav nav .navbar-nav .nav-item .dropdown-menu li:hover a {
   color: var(--main-color);
 }
 
-.startp-nav nav .navbar-nav .nav-item:hover ul {
+.pixelstocode-nav nav .navbar-nav .nav-item:hover ul {
   opacity: 1;
   visibility: visible;
   top: 100%;
 }
 
-.startp-nav nav .others-option {
+.pixelstocode-nav nav .others-option {
   margin-left: 20px;
 }
 
-.startp-nav nav .others-option .btn.btn-light {
+.pixelstocode-nav nav .others-option .btn.btn-light {
   background: transparent;
   border: 2px dashed #cdf1d8;
   padding: 12px 33px;
   margin-right: 10px;
 }
 
-.startp-nav nav .others-option .btn.btn-light:hover, .startp-nav nav .others-option .btn.btn-light:focus {
+.pixelstocode-nav nav .others-option .btn.btn-light:hover, .pixelstocode-nav nav .others-option .btn.btn-light:focus {
   color: var(--main-color);
   border-color: var(--main-color);
 }
 
-.startp-nav nav .others-option .btn.btn-light::after, .startp-nav nav .others-option .btn.btn-light::before {
+.pixelstocode-nav nav .others-option .btn.btn-light::after, .pixelstocode-nav nav .others-option .btn.btn-light::before {
   background: var(--main-color);
 }
 
-.startp-nav nav .others-option .btn.btn-primary {
+.pixelstocode-nav nav .others-option .btn.btn-primary {
   background: var(--main-color-hover);
   -webkit-box-shadow: 0 13px 27px 0 rgba(0, 150, 136, 0.25);
           box-shadow: 0 13px 27px 0 rgba(0, 150, 136, 0.25);
 }
 
-.startp-nav nav .others-option .btn.btn-primary::after, .startp-nav nav .others-option .btn.btn-primary::before {
+.pixelstocode-nav nav .others-option .btn.btn-primary::after, .pixelstocode-nav nav .others-option .btn.btn-primary::before {
   background: var(--main-color);
   -webkit-box-shadow: 0 13px 27px 0 rgba(33, 127, 122, 0.25);
           box-shadow: 0 13px 27px 0 rgba(33, 127, 122, 0.25);
 }
 
-.startp-nav.is-sticky {
+.pixelstocode-nav.is-sticky {
   position: fixed;
   top: 0;
   left: 0;
@@ -1113,7 +1113,7 @@ Boxes CSS
   width: 100%;
   border-radius: 5px;
   height: 100%;
-  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+  background: linear-gradient(135deg, #3ab2af 0%, #43e794 100%);
   z-index: -1;
   opacity: 0;
   visibility: hidden;
@@ -1268,7 +1268,7 @@ Services CSS
   top: 0;
   height: 100%;
   width: 100%;
-  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+  background: linear-gradient(135deg, #3ab2af 0%, #43e794 100%);
   opacity: 0;
   visibility: hidden;
   position: absolute;
@@ -1753,7 +1753,7 @@ Team CSS
 }
 
 .single-team .team-info {
-  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+  background: linear-gradient(135deg, #3ab2af 0%, #43e794 100%);
   padding: 10px 15px;
   border-radius: 75px;
   margin-bottom: 25px;
@@ -1816,7 +1816,7 @@ Works CSS
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+  background: linear-gradient(135deg, #3ab2af 0%, #43e794 100%);
   -webkit-transition: 0.5s;
   transition: 0.5s;
   opacity: 0;
@@ -2006,7 +2006,7 @@ Pricing CSS
   width: 100%;
   height: 100%;
   border-radius: 5px 5px 0 0;
-  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+  background: linear-gradient(135deg, #3ab2af 0%, #43e794 100%);
   opacity: 0;
   visibility: hidden;
   -webkit-transition: 0.5s;
@@ -2419,7 +2419,7 @@ Feedback CSS
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+  background: linear-gradient(135deg, #3ab2af 0%, #43e794 100%);
   opacity: 0;
   visibility: hidden;
   -webkit-transition: 0.5s;
@@ -2459,7 +2459,7 @@ Ready To Talk CSS
   position: relative;
   padding-top: 80px;
   padding-bottom: 80px;
-  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+  background: linear-gradient(135deg, #3ab2af 0%, #43e794 100%);
 }
 
 .ready-to-talk h3 {
@@ -2580,7 +2580,7 @@ Blog CSS
   position: absolute;
   left: 20px;
   bottom: -20px;
-  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+  background: linear-gradient(135deg, #3ab2af 0%, #43e794 100%);
   color: #ffffff;
   padding: 8px 16px;
   font-size: 13px;
@@ -3945,7 +3945,7 @@ Why Choose US CSS
   width: 100%;
   border-radius: 5px;
   height: 100%;
-  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+  background: linear-gradient(135deg, #3ab2af 0%, #43e794 100%);
   z-index: -1;
   opacity: 0;
   visibility: hidden;
@@ -4263,7 +4263,7 @@ Features Details CSS
 CTA CSS
 =================================================*/
 .cta-area {
-  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+  background: linear-gradient(135deg, #3ab2af 0%, #43e794 100%);
 }
 
 .cta-area .container {
@@ -4486,7 +4486,7 @@ Repair About CSS
   top: 0;
   height: 100%;
   width: 100%;
-  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+  background: linear-gradient(135deg, #3ab2af 0%, #43e794 100%);
   opacity: 0;
   visibility: hidden;
   position: absolute;
@@ -4623,7 +4623,7 @@ Repair Services CSS
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+  background: linear-gradient(135deg, #3ab2af 0%, #43e794 100%);
   z-index: -1;
   opacity: 0;
   visibility: hidden;
@@ -4760,7 +4760,7 @@ Repair Why Choose Us CSS
 .repair-why-choose-us {
   position: relative;
   z-index: 1;
-  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+  background: linear-gradient(135deg, #3ab2af 0%, #43e794 100%);
 }
 
 .repair-why-choose-us .section-title h2 {
@@ -5150,7 +5150,7 @@ Iot Services CSS
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+  background: linear-gradient(135deg, #3ab2af 0%, #43e794 100%);
   z-index: -1;
   opacity: 0;
   visibility: hidden;
@@ -5285,7 +5285,7 @@ IoT Why Choose Us CSS
 .iot-why-choose-us {
   position: relative;
   z-index: 1;
-  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+  background: linear-gradient(135deg, #3ab2af 0%, #43e794 100%);
 }
 
 .iot-why-choose-us .section-title h2 {

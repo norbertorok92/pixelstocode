@@ -31,9 +31,9 @@ class Index extends React.Component {
                     <ServicesArea />
                     <RecentWork />
                     <Funfacts />
-                    <Feedback />
+                    {/* <Feedback /> */}
                     <Partner />
-                    <Blog />
+                    {/* <Blog /> */}
                     <Footer />
                     <GoTop scrollStepInPx="50" delayInMs="16.66" />
                 </Preloader>

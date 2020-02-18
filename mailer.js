@@ -14,7 +14,7 @@ const send = ({ name, email, phone, subject, text }) => {
                 Email: ${email}
                 Phone: ${phone}
                 Body: ${text}
-                This email came from StartP React.js & Next.js template
+                This email came from PixelsToCode
                 `
 
     const from = name && email ? `${name} <${email}>` : `${name || email}`

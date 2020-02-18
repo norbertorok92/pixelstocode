@@ -1,5 +1,5 @@
 /*
-@File: StartP Template Styles
+@File: PixelsToCode Styles
 
 * This file contains the styling for the actual tepmlate, this
 is the file you need to edit to change the look of the
@@ -373,15 +373,15 @@ Preloader CSS
 /*================================================
 Navbar CSS
 =================================================*/
-.startp-mobile-nav {
+.pixelstocode-mobile-nav {
   display: none;
 }
 
-.startp-mobile-nav.mean-container .mean-nav ul li a.active {
+.pixelstocode-mobile-nav.mean-container .mean-nav ul li a.active {
   color: #e36cd9;
 }
 
-.startp-nav {
+.pixelstocode-nav {
   background: transparent;
   position: absolute;
   top: 0;
@@ -392,18 +392,18 @@ Navbar CSS
   height: auto;
 }
 
-.startp-nav nav ul {
+.pixelstocode-nav nav ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
 
-.startp-nav nav .navbar-nav .nav-item {
+.pixelstocode-nav nav .navbar-nav .nav-item {
   position: relative;
   padding: 15px 0;
 }
 
-.startp-nav nav .navbar-nav .nav-item a {
+.pixelstocode-nav nav .navbar-nav .nav-item a {
   font-weight: 500;
   font-size: 14px;
   color: #4a6f8a;
@@ -415,15 +415,15 @@ Navbar CSS
   margin-right: 14px;
 }
 
-.startp-nav nav .navbar-nav .nav-item a:hover, .startp-nav nav .navbar-nav .nav-item a:focus, .startp-nav nav .navbar-nav .nav-item a.active {
+.pixelstocode-nav nav .navbar-nav .nav-item a:hover, .pixelstocode-nav nav .navbar-nav .nav-item a:focus, .pixelstocode-nav nav .navbar-nav .nav-item a.active {
   color: #e36cd9;
 }
 
-.startp-nav nav .navbar-nav .nav-item a svg {
+.pixelstocode-nav nav .navbar-nav .nav-item a svg {
   width: 14px;
 }
 
-.startp-nav nav .navbar-nav .nav-item .dropdown-menu {
+.pixelstocode-nav nav .navbar-nav .nav-item .dropdown-menu {
   -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
   background: #ffffff;
@@ -444,12 +444,12 @@ Navbar CSS
   transition: all 0.3s ease-in-out;
 }
 
-.startp-nav nav .navbar-nav .nav-item .dropdown-menu li {
+.pixelstocode-nav nav .navbar-nav .nav-item .dropdown-menu li {
   position: relative;
   padding: 0;
 }
 
-.startp-nav nav .navbar-nav .nav-item .dropdown-menu li a {
+.pixelstocode-nav nav .navbar-nav .nav-item .dropdown-menu li a {
   font-size: 14px;
   font-weight: 500;
   padding: 9px 15px;
@@ -458,11 +458,11 @@ Navbar CSS
   color: #4a6f8a;
 }
 
-.startp-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, .startp-nav nav .navbar-nav .nav-item .dropdown-menu li a:focus, .startp-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
+.pixelstocode-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, .pixelstocode-nav nav .navbar-nav .nav-item .dropdown-menu li a:focus, .pixelstocode-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
   color: #e36cd9;
 }
 
-.startp-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
+.pixelstocode-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
   position: absolute;
   left: 190px;
   top: 0;
@@ -470,63 +470,63 @@ Navbar CSS
   visibility: hidden !important;
 }
 
-.startp-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
+.pixelstocode-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
   color: #4a6f8a;
 }
 
-.startp-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .startp-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .startp-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
+.pixelstocode-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .pixelstocode-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .pixelstocode-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
   color: #e36cd9;
 }
 
-.startp-nav nav .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
+.pixelstocode-nav nav .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
   opacity: 1 !important;
   visibility: visible !important;
   top: -20px !important;
 }
 
-.startp-nav nav .navbar-nav .nav-item .dropdown-menu li:hover a {
+.pixelstocode-nav nav .navbar-nav .nav-item .dropdown-menu li:hover a {
   color: #e36cd9;
 }
 
-.startp-nav nav .navbar-nav .nav-item:hover ul {
+.pixelstocode-nav nav .navbar-nav .nav-item:hover ul {
   opacity: 1;
   visibility: visible;
   top: 100%;
 }
 
-.startp-nav nav .others-option {
+.pixelstocode-nav nav .others-option {
   margin-left: 20px;
 }
 
-.startp-nav nav .others-option .btn.btn-light {
+.pixelstocode-nav nav .others-option .btn.btn-light {
   background: transparent;
   border: 2px dashed #d6b4e7;
   padding: 12px 33px;
   margin-right: 10px;
 }
 
-.startp-nav nav .others-option .btn.btn-light:hover, .startp-nav nav .others-option .btn.btn-light:focus {
+.pixelstocode-nav nav .others-option .btn.btn-light:hover, .pixelstocode-nav nav .others-option .btn.btn-light:focus {
   color: #ffffff;
   border-color: #e36cd9;
 }
 
-.startp-nav nav .others-option .btn.btn-light::after, .startp-nav nav .others-option .btn.btn-light::before {
+.pixelstocode-nav nav .others-option .btn.btn-light::after, .pixelstocode-nav nav .others-option .btn.btn-light::before {
   background: #e36cd9;
 }
 
-.startp-nav nav .others-option .btn.btn-primary {
+.pixelstocode-nav nav .others-option .btn.btn-primary {
   background: #44ce6f;
   -webkit-box-shadow: 0 13px 27px 0 rgba(68, 206, 111, 0.25);
           box-shadow: 0 13px 27px 0 rgba(68, 206, 111, 0.25);
 }
 
-.startp-nav nav .others-option .btn.btn-primary::after, .startp-nav nav .others-option .btn.btn-primary::before {
+.pixelstocode-nav nav .others-option .btn.btn-primary::after, .pixelstocode-nav nav .others-option .btn.btn-primary::before {
   background: #e36cd9;
   -webkit-box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
           box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
 }
 
-.startp-nav.is-sticky {
+.pixelstocode-nav.is-sticky {
   position: fixed;
   top: 0;
   left: 0;

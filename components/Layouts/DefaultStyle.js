@@ -45,7 +45,7 @@ class DefaultStyle extends React.Component {
         }
         return (
             <header id="header">
-                <div id="navbar" className={`startp-nav ${layOutCls}`}>
+                <div id="navbar" className={`pixelstocode-nav ${layOutCls}`}>
                     <div className="container">
                         <nav className="navbar navbar-expand-md navbar-light">
                             <Link href="/">
@@ -97,105 +97,12 @@ class DefaultStyle extends React.Component {
                                             </li>
                                         </ul>
                                     </li>
-                                    
-                                    <li className="nav-item">
-                                        <Link activeClassName="active" href="#">
-                                            <a href="#" className="nav-link">Pages <Icon.ChevronDown /></a>
-                                        </Link>
-                                        <ul className="dropdown-menu">
-                                            <li className="nav-item">
-                                                <Link activeClassName="active" href="/about">
-                                                    <a className="nav-link">About</a>
-                                                </Link>
-                                            </li>
     
-                                            <li className="nav-item">
-                                                <Link activeClassName="active" href="/features">
-                                                    <a className="nav-link">Features</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link activeClassName="active" href="#">
-                                                    <a className="nav-link">Services</a>
-                                                </Link>
-                                                <ul className="dropdown-menu">
-                                                    <li className="nav-item">
-                                                        <Link activeClassName="active" href="/services">
-                                                            <a className="nav-link">Services</a>
-                                                        </Link>
-                                                    </li>
-                                                    
-                                                    <li className="nav-item">
-                                                        <Link activeClassName="active" href="/service-details">
-                                                            <a className="nav-link">Service Details</a>
-                                                        </Link>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            
-                                            <li className="nav-item">
-                                                <Link activeClassName="active" href="#">
-                                                    <a className="nav-link">Project</a>
-                                                </Link>
-                                                <ul className="dropdown-menu">
-                                                    <li className="nav-item">
-                                                        <Link activeClassName="active" href="/project">
-                                                            <a className="nav-link">Project</a>
-                                                        </Link>
-                                                    </li>
-                                                    
-                                                    <li className="nav-item">
-                                                        <Link activeClassName="active" href="/project-details">
-                                                            <a className="nav-link">Project Details</a>
-                                                        </Link>
-                                                    </li>
-                                                </ul>
-                                            </li>
-    
-                                            <li className="nav-item">
-                                                <Link activeClassName="active" href="/team">
-                                                    <a className="nav-link">Team</a>
-                                                </Link>
-                                            </li>
-    
-                                            <li className="nav-item">
-                                                <Link activeClassName="active" href="/pricing">
-                                                    <a className="nav-link">Pricing</a>
-                                                </Link>
-                                            </li>
-                                            
-                                            <li className="nav-item">
-                                                <Link activeClassName="active" href="/faq">
-                                                    <a className="nav-link">FAQ</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link 
-                                                    activeClassName="active" 
-                                                    href="/coming-soon"
-                                                >
-                                                    <a className="nav-link">Coming Soon</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link 
-                                                    activeClassName="active" 
-                                                    href="/error"
-                                                >
-                                                    <a className="nav-link">Error Status</a>
-                                                </Link>
-                                            </li>
-                                        </ul>
-                                    </li>
-    
-                                    <li className="nav-item">
+                                    {/* <li className="nav-item">
                                         <Link activeClassName="active" href="/blog">
                                             <a className="nav-link">Blog</a>
                                         </Link>
-                                    </li>
+                                    </li> */}
     
                                     <li className="nav-item">
                                         <Link activeClassName="active" href="/contact">
@@ -205,14 +112,11 @@ class DefaultStyle extends React.Component {
                                 </ul>
                             </div>
     
-                            <div className="others-option">
-                                <Link href="#">
+                            {/* <div className="others-option">
+                                <Link href="/support">
                                     <a className="btn btn-light">Support</a>
                                 </Link>
-                                <Link href="#">
-                                    <a className="btn btn-primary">Login</a>
-                                </Link>
-                            </div>
+                            </div> */}
                         </nav>
                     </div> 
                 </div>

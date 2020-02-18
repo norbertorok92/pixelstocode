@@ -19,7 +19,7 @@ export default class MyApp extends App {
         return (
             <Container>
                 <Head>
-                    <title>StartP - React + Next + Express Bootstrap 4 Template</title>
+                    <title>PixelsToCode</title>
                 </Head>
                 <Component {...pageProps} />
             </Container>

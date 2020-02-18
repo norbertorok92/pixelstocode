@@ -22,10 +22,6 @@ class Services extends Component {
 
                                 <h3>Software Development <br />IoT Solutions</h3>
                                 <p>Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                                
-                                <Link href="#">
-                                    <a><Icon.ArrowRight /></a>
-                                </Link>
                             </div>
                         </div>
 
@@ -37,10 +33,6 @@ class Services extends Component {
 
                                 <h3>Smart Home, Office <br />IoT Solutions</h3>
                                 <p>Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                                
-                                <Link href="#">
-                                    <a><Icon.ArrowRight /></a>
-                                </Link>
                             </div>
                         </div>
 
@@ -52,10 +44,6 @@ class Services extends Component {
 
                                 <h3>Smart City <br />IoT Solutions</h3>
                                 <p>Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                                
-                                <Link href="#">
-                                    <a><Icon.ArrowRight /></a>
-                                </Link>
                             </div>
                         </div>
 
@@ -68,9 +56,6 @@ class Services extends Component {
                                 <h3>Automative <br />IoT Solutions</h3>
                                 <p>Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
                                 
-                                <Link href="#">
-                                    <a><Icon.ArrowRight /></a>
-                                </Link>
                             </div>
                         </div>
 
@@ -83,9 +68,6 @@ class Services extends Component {
                                 <h3>Industrial <br />IoT Solutions</h3>
                                 <p>Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
                                 
-                                <Link href="#">
-                                    <a><Icon.ArrowRight /></a>
-                                </Link>
                             </div>
                         </div>
 
@@ -98,9 +80,6 @@ class Services extends Component {
                                 <h3>System on Chip <br />IoT Solutions</h3>
                                 <p>Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
                                 
-                                <Link href="#">
-                                    <a><Icon.ArrowRight /></a>
-                                </Link>
                             </div>
                         </div>
                     </div>

@@ -30,11 +30,7 @@ export default () => (
             <Cta />
             <Funfacts />
             <Features />
-            <Team />
-            <Feedback />
             <WhyChoose />
-            <Blog />
-
             <Footer />
             <GoTop scrollStepInPx="50" delayInMs="16.66" />
         </Preloader>

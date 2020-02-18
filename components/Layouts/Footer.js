@@ -35,16 +35,16 @@ export default class Footer extends React.Component {
                                             <a>Services</a>
                                         </Link>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <Link href="/pricing">
                                             <a>Our Pricing</a>
                                         </Link>
-                                    </li>
-                                    <li>
+                                    </li> */}
+                                    {/* <li>
                                         <Link href="/blog">
                                             <a>Latest Blog Posts</a>
                                         </Link>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
                         </div>
