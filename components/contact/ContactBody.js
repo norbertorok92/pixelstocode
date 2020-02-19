@@ -94,7 +94,7 @@ export default class ContactBody extends React.Component {
                 <section className="contact-area ptb-80">
                     <div className="container">
                         <div className="section-title">
-                            <h2>Get In Touch With Us</h2>
+                            <h2>Connect with our experts.</h2>
                             <div className="bar"></div>
                             <p>Anything On your Mind. We’ll Be Glad To Assist You!</p>
                         </div>

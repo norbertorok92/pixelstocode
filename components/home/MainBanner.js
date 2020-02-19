@@ -11,13 +11,18 @@ const MainBanner = () => {
 						<div className="row h-100 justify-content-center align-items-center">
 							<div className="col-lg-5">
 								<div className="hero-content">
-									<h1>Secure IT Solutions for a more secure environment</h1>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida</p>
+									<h4>Hello</h4>
+									<h1>Start with a pixel!</h1>
+									<h5>Seamless collaboration, total transparency,</h5>
+									<h5>secure delivery. We’ve developed a better</h5>
+									<h5>approach to custom software development.</h5>
 									
-									<Link href="/services">
-										<a className="btn btn-primary">Get Started</a>
-									</Link>
 								</div>
+                                <div className="ptb-80">
+                                    <Link href="/services">
+                                        <a className="btn btn-primary">Learn more</a>
+                                    </Link>
+                                </div>
 							</div>
 
 							<div className="col-lg-6 offset-lg-1">

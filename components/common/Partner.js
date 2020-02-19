@@ -7,8 +7,8 @@ export default class Partner extends React.Component {
             <React.Fragment>
                 <section className="ready-to-talk">
                     <div className="container">
-                        <h3>Ready to talk?</h3>
-                        <p>The team is here to answer your questions</p>
+                        <h3>Like what you see?</h3>
+                        <p>Let's start a conversation.</p>
                         <Link activeClassName="active" href="/contact">
                             <a className="btn btn-primary">Contact Us</a>
                         </Link>

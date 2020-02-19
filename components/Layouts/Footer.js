@@ -17,7 +17,7 @@ export default class Footer extends React.Component {
                                         </a>
                                     </Link>
                                 </div>
-                                <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                                <p>We love finding solutions to complicated problems by solving the unsolvable. Our technology experts think big, design smart, and develop fast for all screens. They’re ready to turn your big idea into a reality.</p>
                             </div>
                         </div>
 
@@ -28,6 +28,11 @@ export default class Footer extends React.Component {
                                     <li>
                                         <Link href="/about">
                                             <a>About Us</a>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/contact">
+                                            <a>Contact Us</a>
                                         </Link>
                                     </li>
                                     <li>
@@ -66,11 +71,6 @@ export default class Footer extends React.Component {
                                     <li>
                                         <Link href="/terms-and-conditions">
                                             <a>Terms & Condition</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/contact">
-                                            <a>Contact Us</a>
                                         </Link>
                                     </li>
                                 </ul>
@@ -124,7 +124,7 @@ export default class Footer extends React.Component {
 
                         <div className="col-lg-12 col-md-12">
                             <div className="copyright-area">
-                                <p>Copyright @2019 PixelsToCode. All rights reserved</p>
+                                <p>Copyright @2020 PixelsToCode. All rights reserved</p>
                             </div>
                         </div>
                     </div>

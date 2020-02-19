@@ -4,7 +4,7 @@ import Header from '../components/Layouts/Header'
 import Footer from '../components/Layouts/Footer'
 import GoTop from '../components/Layouts/GoTop'
 import PageTitle from '../components/services/PageTitle'
-import ServicesContent from '../components/services/ServicesContent'
+import Services from '../components/services/Services'
 
 class Features extends React.Component {
     render() {
@@ -17,7 +17,7 @@ class Features extends React.Component {
                 </Placeholder>
                 <Header />
                 <PageTitle />
-                <ServicesContent />
+                <Services />
                 <Footer />
                 <GoTop scrollStepInPx="50" delayInMs="16.66" />
             </Preloader>

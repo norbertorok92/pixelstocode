@@ -31,9 +31,9 @@ class RecentWork extends React.Component {
             <section className="works-area ptb-80 bg-f7fafd">
                 <div className="container">
                     <div className="section-title">
-                        <h2>Our Recent Works</h2>
+                        <h2>Proud Projects That Make Us Stand Out</h2>
                         <div className="bar"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h5>Some highlights of our favorite projects we've done for forward thinking clients.</h5>
                     </div>
                 </div>
 

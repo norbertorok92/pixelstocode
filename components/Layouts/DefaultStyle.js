@@ -50,7 +50,7 @@ class DefaultStyle extends React.Component {
                         <nav className="navbar navbar-expand-md navbar-light">
                             <Link href="/">
                                 <a className="navbar-brand">
-                                    <img src={require("../../images/pixelstocode_without_slogan.png")} alt="logo" width="150" />
+                                    <img src={require("../../images/pixelstocode_without_slogan.png")} alt="logo" width="200" />
                                 </a>
                             </Link>
 
@@ -73,12 +73,6 @@ class DefaultStyle extends React.Component {
                                             <a className="nav-link">Home</a>
                                         </Link>
                                     </li>
-    
-                                    <li className="nav-item">
-                                        <Link activeClassName="active" href="/about">
-                                            <a className="nav-link">About</a>
-                                        </Link>
-                                    </li>
 
                                     <li className="nav-item">
                                         <Link activeClassName="active" href="/services">
@@ -87,36 +81,60 @@ class DefaultStyle extends React.Component {
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
                                                 <Link activeClassName="active" href="/dev-services">
-                                                    <a className="nav-link">Development Services</a>
+                                                    <a className="nav-link"><Icon.Code />&nbsp; Development Services</a>
                                                 </Link>
                                             </li>
                                             <li className="nav-item">
                                                 <Link activeClassName="active" href="/web-hosting-services">
-                                                    <a className="nav-link">Web Hosting Services</a>
+                                                    <a className="nav-link"><Icon.Server />&nbsp; Web Hosting Services</a>
+                                                </Link>
+                                            </li>
+                                            <li className="nav-item">
+                                                <Link activeClassName="active" href="/digital-strategy">
+                                                    <a className="nav-link"><Icon.Target />&nbsp; Digital Strategy</a>
                                                 </Link>
                                             </li>
                                         </ul>
                                     </li>
     
+                                    <li className="nav-item">
+                                        <Link activeClassName="active" href="/how-we-work">
+                                            <a className="nav-link">How we work</a>
+                                        </Link>
+                                    </li>
+                                    
+                                    <li className="nav-item">
+                                        <Link activeClassName="active" href="/about">
+                                            <a className="nav-link">About</a>
+                                        </Link>
+                                    </li>
+
+                                    <li className="nav-item">
+                                        <Link activeClassName="active" href="/about">
+                                            <a className="nav-link">Contact</a>
+                                        </Link>
+                                    </li>
+
+                                    
                                     {/* <li className="nav-item">
                                         <Link activeClassName="active" href="/blog">
                                             <a className="nav-link">Blog</a>
                                         </Link>
                                     </li> */}
     
-                                    <li className="nav-item">
+                                    {/* <li className="nav-item">
                                         <Link activeClassName="active" href="/contact">
                                             <a className="nav-link">Contact</a>
                                         </Link>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
     
-                            {/* <div className="others-option">
-                                <Link href="/support">
-                                    <a className="btn btn-light">Support</a>
+                            <div className="others-option">
+                                <Link href="/contact">
+                                    <a className="btn btn-light">Speak with an Expert</a>
                                 </Link>
-                            </div> */}
+                            </div>
                         </nav>
                     </div> 
                 </div>

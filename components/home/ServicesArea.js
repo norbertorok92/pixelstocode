@@ -104,7 +104,7 @@ class ServicesArea extends React.Component {
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6">
                                         <div className="box">
-                                            <Icon.Percent /> UX/UI design
+                                            <Icon.Monitor /> UX/UI design
                                         </div>
                                     </div>
 
@@ -128,7 +128,7 @@ class ServicesArea extends React.Component {
 
                                     <div className="col-lg-6 col-md-6">
                                         <div className="box">
-                                            <Icon.CheckCircle /> Print Ready Design
+                                            <Icon.Smartphone /> Mobile Development
                                         </div>
                                     </div>
 
@@ -317,6 +317,90 @@ class ServicesArea extends React.Component {
                                         alt="main-pic"
                                     />
                                 </ReactWOW>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="services-area ptb-80 bg-f7fafd">
+                    <div className="container">
+                        <div className="row h-100 justify-content-center align-items-center">
+                            <div className="col-lg-6 col-md-12 why-choose-us-image">
+                                <ReactWOW animation='fadeInLeft'>
+                                    <img 
+                                        src={require("../../images/why-choose-us-image/man-stand.png")}
+                                        className="wow fadeInLeft" 
+                                        alt="image"
+                                    />
+                                </ReactWOW>
+                                <ReactWOW animation='fadeInRight'>
+                                    <img 
+                                        src={require("../../images/why-choose-us-image/database.png")}
+                                        className="wow fadeInRight" 
+                                        alt="image"
+                                    />
+                                </ReactWOW>
+                                <img 
+                                    src={require("../../images/services-left-image/cercle-shape.png")} 
+                                    className="bg-image rotateme" 
+                                    alt="shape"
+                                />
+                                <ReactWOW animation='fadeInUp'>
+                                    <img 
+                                        src={require("../../images/why-choose-us-image/main-static.png")}
+                                        className="main-pic" 
+                                        alt="image"
+                                    />
+                                </ReactWOW>
+                            </div>
+
+                            <div className="col-lg-6 col-md-12 services-content">
+                                <div className="section-title">
+                                    <h2>DIgital Strategy</h2>
+                                    <div className="bar"></div>
+                                    <Link href="/digital-strategy">
+                                        <a className="btn btn-primary btn-small">More Info</a>
+                                    </Link>
+                                </div>
+
+                                <div className="row">
+                                    <div className="col-lg-6 col-md-6">
+                                        <div className="box">
+                                            <Icon.Crosshair /> Online Marketing
+                                        </div>
+                                    </div>
+
+                                    <div className="col-lg-6 col-md-6">
+                                        <div className="box">
+                                            <Icon.Settings /> Maintenance
+                                        </div>
+                                    </div>
+
+                                    <div className="col-lg-6 col-md-6">
+                                        <div className="box">
+                                            <Icon.Share2 /> Roadmap Creation
+                                        </div>
+                                    </div>
+
+                                    <div className="col-lg-6 col-md-6">
+                                        <div className="box">
+                                            <Icon.FileText /> Technology Consulting
+                                        </div>
+                                    </div>
+
+                                    <div className="col-lg-6 col-md-6">
+                                        <div className="box">
+                                            <Icon.Codepen /> Tranparency
+                                        </div>
+                                    </div>
+
+                                    <div className="col-lg-6 col-md-6">
+                                        <div className="box">
+                                            <Icon.Shuffle /> Flexibility
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                     </div>
