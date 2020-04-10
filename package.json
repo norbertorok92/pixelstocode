@@ -40,6 +40,7 @@
     "react-accessible-accordion": "^3.0.0",
     "react-dom": "^16.8.6",
     "react-feather": "^1.1.6",
+    "react-ga": "^2.7.0",
     "react-google-maps": "^9.4.5",
     "react-image-lightbox": "^5.1.0",
     "react-modal-video": "^1.2.1",
