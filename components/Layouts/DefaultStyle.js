@@ -96,37 +96,18 @@ class DefaultStyle extends React.Component {
                                             </li>
                                         </ul>
                                     </li>
-    
-                                    <li className="nav-item">
-                                        <Link activeClassName="active" href="/how-we-work">
-                                            <a className="nav-link">How we work</a>
-                                        </Link>
-                                    </li>
                                     
-                                    <li className="nav-item">
-                                        <Link activeClassName="active" href="/about">
-                                            <a className="nav-link">About</a>
+                                    {/* <li className="nav-item">
+                                        <Link activeClassName="active" href="/faq">
+                                            <a className="nav-link">FAQs</a>
                                         </Link>
-                                    </li>
+                                    </li> */}
 
                                     <li className="nav-item">
                                         <Link activeClassName="active" href="/about">
-                                            <a className="nav-link">Contact</a>
+                                            <a className="nav-link">About Us</a>
                                         </Link>
                                     </li>
-
-                                    
-                                    {/* <li className="nav-item">
-                                        <Link activeClassName="active" href="/blog">
-                                            <a className="nav-link">Blog</a>
-                                        </Link>
-                                    </li> */}
-    
-                                    {/* <li className="nav-item">
-                                        <Link activeClassName="active" href="/contact">
-                                            <a className="nav-link">Contact</a>
-                                        </Link>
-                                    </li> */}
                                 </ul>
                             </div>
     

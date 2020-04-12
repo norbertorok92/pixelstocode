@@ -152,7 +152,7 @@ class ServicesArea extends React.Component {
                                     <h2>Web Hosting Services</h2>
                                     <div className="bar"></div>
 
-                                    <p>Starting at <strike>$9.99</strike> $4.95/month</p>
+                                    <p>Starting at <strike> $9.99 </strike> $4.95/month</p>
                                     <Link href="/web-hosting-services">
                                         <a className="btn btn-primary">More Info</a>
                                     </Link>

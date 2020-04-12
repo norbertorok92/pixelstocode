@@ -12,14 +12,14 @@ class MainBanner extends Component {
                             <div className="row align-items-center">
                                 <div className="col-lg-6 col-md-12">
                                     <div className="hosting-banner-content">
-                                        <h1>The Best Web Hosting</h1>
+                                        <h1>Hosting for your needs</h1>
                                         <ul>
                                             <li>FREE Domain Name for 1st Year</li>
                                             <li>FREE SSL Certificate Included</li>
-                                            <li>1-Click Wordpress Install</li>
-                                            <li>24/7 Support</li>
+                                            <li>99% Server Uptime</li>
+                                            <li>Cloud databases</li>
                                         </ul>
-                                        <p>Starting at <span>$9.99</span> $4.95/month</p>
+                                        <p>Starting at <span> $9.99 </span> $4.95/month</p>
                                         <Link href="/contact">
                                             <a className="btn btn-primary">Get Started</a>
                                         </Link>

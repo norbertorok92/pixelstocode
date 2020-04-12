@@ -28,13 +28,9 @@ class Services extends Component {
                   </div>
                   <h3>
                     <Link href="/dev-services">
-                      <a>Development Services</a>
+                      <a className="btn btn-light">Development Services</a>
                     </Link>
                   </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod
-                    tempor incididunt ut labore dolore magna aliqua.
-                  </p>
                 </div>
               </div>
 
@@ -48,13 +44,9 @@ class Services extends Component {
                   </div>
                   <h3>
                     <Link href="/web-hosting-services">
-                      <a>Web Hosting Services</a>
+                      <a className="btn btn-light">Web Hosting Services</a>
                     </Link>
                   </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod
-                    tempor incididunt ut labore dolore magna aliqua.
-                  </p>
                 </div>
               </div>
 
@@ -68,13 +60,9 @@ class Services extends Component {
                   </div>
                   <h3>
                     <Link href="/digital-strategy">
-                      <a>Digital Strategy</a>
+                      <a className="btn btn-light">Digital Strategy</a>
                     </Link>
                   </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod
-                    tempor incididunt ut labore dolore magna aliqua.
-                  </p>
                 </div>
               </div>
 

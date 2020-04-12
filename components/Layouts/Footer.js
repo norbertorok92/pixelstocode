@@ -17,7 +17,7 @@ export default class Footer extends React.Component {
                                         </a>
                                     </Link>
                                 </div>
-                                <p>We love finding solutions to complicated problems by solving the unsolvable. Our technology experts think big, design smart, and develop fast for all screens. They’re ready to turn your big idea into a reality.</p>
+                                <p>We love finding solutions to complicated problems by solving the unsolvable. We're ready to turn your big idea into a reality.</p>
                             </div>
                         </div>
 
@@ -40,16 +40,6 @@ export default class Footer extends React.Component {
                                             <a>Services</a>
                                         </Link>
                                     </li>
-                                    {/* <li>
-                                        <Link href="/pricing">
-                                            <a>Our Pricing</a>
-                                        </Link>
-                                    </li> */}
-                                    {/* <li>
-                                        <Link href="/blog">
-                                            <a>Latest Blog Posts</a>
-                                        </Link>
-                                    </li> */}
                                 </ul>
                             </div>
                         </div>
@@ -58,11 +48,11 @@ export default class Footer extends React.Component {
                             <div className="single-footer-widget">
                                 <h3>Support</h3>
                                 <ul className="list">
-                                    <li>
+                                    {/* <li>
                                         <Link href="/faq">
                                             <a>FAQ's</a>
                                         </Link>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <Link href="/privacy-policy">
                                             <a>Privacy Policy</a>
@@ -88,36 +78,29 @@ export default class Footer extends React.Component {
                                     </li>
                                     <li>
                                         <Icon.Mail />
-                                        Email: <Link href="#"><a>norbert.torok92@gmail.com</a></Link>
+                                        Email: <Link href="mailto:hello@pixelstocode.com"><a>hello@pixelstocode.com	</a></Link>
                                     </li>
                                     <li> 
                                         <Icon.PhoneCall />
-                                        Phone: <Link href="#"><a>+40 752 299 075</a></Link>
+                                        Phone: <Link href="tel:0040 752 299 075"><a>+40 752 299 075</a></Link>
                                     </li>
                                 </ul>
                                 <ul className="social-links">
                                     <li>
-                                        <Link href="#">
-                                            <a className="facebook">
-                                                <Icon.Facebook />
-                                            </a>
+                                        <Link href="https://www.facebook.com/Pixelstocode-102395918024674">
+                                            <a className="facebook"><Icon.Facebook /></a>
                                         </Link>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <Link href="#">
                                             <a className="twitter"><Icon.Twitter /></a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="#">
-                                            <a className="instagram"><Icon.Instagram /></a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
                                             <a className="linkedin"><Icon.Linkedin /></a>
                                         </Link>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
                         </div>

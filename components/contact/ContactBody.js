@@ -94,15 +94,12 @@ export default class ContactBody extends React.Component {
                 <section className="contact-area ptb-80">
                     <div className="container">
                         <div className="section-title">
-                            <h2>Connect with our experts.</h2>
+                            <h2>Anything On your Mind. We’ll Be Glad To Assist You!</h2>
                             <div className="bar"></div>
-                            <p>Anything On your Mind. We’ll Be Glad To Assist You!</p>
+                            <p>Don’t let technology hold you back. Break free and discover how our company can help your business grow exponentially.</p>
                         </div>
 
                         <div className="row h-100 justify-content-center align-items-center">
-                            <div className="col-lg-6 col-md-12">
-                                <img src={require("../../images/1.png")} alt="image" />
-                            </div>
 
                             <div className="col-lg-6 col-md-12">
                                 <form 

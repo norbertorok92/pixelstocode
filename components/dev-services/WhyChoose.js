@@ -10,7 +10,7 @@ class WhyChoose extends Component {
                     <div className="section-title">
                         <h2>Why We Are Different From Others</h2>
                         <div className="bar"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Technology is transforming the way we buy, sell, and do everything. We help clients unlock potential and fuel growth with software development services.</p>
                     </div>
                     
                     <div className="row">
@@ -19,8 +19,7 @@ class WhyChoose extends Component {
                                 <div className="icon">
                                     <img src={require('../../images/icon1.png')} alt="image" />
                                 </div>
-                                <h3>Digital Technology</h3>
-                                <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                                <h3>Technology</h3>
                             </div>
                         </div>
 
@@ -29,8 +28,7 @@ class WhyChoose extends Component {
                                 <div className="icon">
                                     <img src={require('../../images/icon2.png')} alt="image" />
                                 </div>
-                                <h3>Business Protection</h3>
-                                <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                                <h3>Security</h3>
                             </div>
                         </div>
 
@@ -39,8 +37,7 @@ class WhyChoose extends Component {
                                 <div className="icon">
                                     <img src={require('../../images/icon3.png')} alt="image" />
                                 </div>
-                                <h3>Data Analysis</h3>
-                                <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                                <h3>Optimization</h3>
                             </div>
                         </div>
                     </div>

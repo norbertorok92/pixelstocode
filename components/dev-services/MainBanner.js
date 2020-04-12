@@ -8,11 +8,11 @@ class MainBanner extends Component {
             <section className="iot-main-banner">
                 <div className="container">
                     <div className="iot-banner-content">
-                        <span>Internet of Things</span>
-                        <h2>We get it! IoT growth is happening</h2>
-                        <p>At this point, it may seem like overkill to point out the continued growth bound to happen in the Internet of Things space for the years to come and how it will create new opportunities for companies, both established and new, from a hardware and software perspective.</p>
-                        <Link href="#">
-                            <a className="btn btn-primary">Get Started</a>
+                        <span>Development Services</span>
+                        <h2>Reach Users Across Platforms</h2>
+                        <p>Our custom development service offers options for businesses who seek to provide a flexible, consistent experience for users across platforms. Leveraging new approaches to web development including progressive web apps, we bring front-end, back-end and architecture ability together to deliver on your business needs.</p>
+                        <Link href="/contact">
+                            <a className="btn btn-primary">Get In Touch</a>
                         </Link>
                     </div>
 

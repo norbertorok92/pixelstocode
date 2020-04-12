@@ -8,36 +8,24 @@ class Pricing extends Component {
             <section className="pricing-area ptb-80 bg-f7fafd">
                 <div className="container">
                     <div className="section-title">
-                        <h2>Pricing Plans</h2>
+                        <h2>Hosting Plans</h2>
                         <div className="bar"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Meet the offers you can’t refuse.</p>
                     </div>
 
                     <div className="row">
                         <div className="col-lg-4 col-md-6">
                             <div className="single-pricing-table">
                                 <div className="pricing-header">
-                                    <Icons.Database />
-                                    <h3>Web Hosting</h3>
+                                    <Icons.Coffee />
+                                    <h3>Hobby Pixel</h3>
                                 </div>
-                                
                                 <div className="price">
-                                    <span><sup>$</sup>10.99<span>/m</span></span>
+                                    <span><sup>$</sup>1.49<span>/mo</span></span>
                                 </div>
-                                
-                                <div className="pricing-features">
-                                    <ul>
-                                        <li><i data-feather="check"></i> 99.9% Uptime Guarantee</li>
-                                        <li><i data-feather="check"></i> Reliable & Secure</li>
-                                        <li><i data-feather="check"></i> Powered by cPanel / Plesk</li>
-                                        <li><i data-feather="check"></i> Web Asset Delivery</li>
-                                        <li><i data-feather="check"></i> 24/7 Dedicated Support</li>
-                                    </ul>
-                                </div>
-                                
                                 <div className="pricing-footer">
-                                    <Link href="#">
-                                        <a className="btn btn-primary">Select Plan</a>
+                                    <Link href="/contact">
+                                        <a className="btn btn-primary">Get Started</a>
                                     </Link>
                                 </div>
                             </div>
@@ -46,27 +34,15 @@ class Pricing extends Component {
                         <div className="col-lg-4 col-md-6">
                             <div className="single-pricing-table active-plan">
                                 <div className="pricing-header">
-                                    <Icons.Cloud />
-                                    <h3>Cloud Hosting</h3>
+                                    <Icons.Sunrise />
+                                    <h3>Beginner Pixel</h3>
                                 </div>
-                                
                                 <div className="price">
-                                    <span><sup>$</sup>13.99<span>/m</span></span>
+                                    <span><sup>$</sup>4.95<span>/mo</span></span>
                                 </div>
-                                
-                                <div className="pricing-features">
-                                    <ul>
-                                        <li><i data-feather="check"></i> 99.9% Uptime Guarantee</li>
-                                        <li><i data-feather="check"></i> Reliable & Secure</li>
-                                        <li><i data-feather="check"></i> Powered by cPanel / Plesk</li>
-                                        <li><i data-feather="check"></i> Web Asset Delivery</li>
-                                        <li><i data-feather="check"></i> 24/7 Dedicated Support</li>
-                                    </ul>
-                                </div>
-                                
                                 <div className="pricing-footer">
-                                    <Link href="#">
-                                        <a className="btn btn-primary">Select Plan</a>
+                                    <Link href="/contact">
+                                        <a className="btn btn-primary">Get Started</a>
                                     </Link>
                                 </div>
                             </div>
@@ -75,27 +51,15 @@ class Pricing extends Component {
                         <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
                             <div className="single-pricing-table">
                                 <div className="pricing-header">
-                                    <Icons.DownloadCloud />
-                                    <h3>Vps Hosting</h3>
+                                    <Icons.Sun />
+                                    <h3>Business Pixel</h3>
                                 </div>
-                                
                                 <div className="price">
-                                    <span><sup>$</sup>15.99<span>/m</span></span>
+                                    <span><sup>$</sup>14.95<span>/mo</span></span>
                                 </div>
-                                
-                                <div className="pricing-features">
-                                    <ul>
-                                        <li><i data-feather="check"></i> 99.9% Uptime Guarantee</li>
-                                        <li><i data-feather="check"></i> Reliable & Secure</li>
-                                        <li><i data-feather="check"></i> Powered by cPanel / Plesk</li>
-                                        <li><i data-feather="check"></i> Web Asset Delivery</li>
-                                        <li><i data-feather="check"></i> 24/7 Dedicated Support</li>
-                                    </ul>
-                                </div>
-                                
                                 <div className="pricing-footer">
-                                    <Link href="#">
-                                        <a className="btn btn-primary">Select Plan</a>
+                                    <Link href="/contact">
+                                        <a className="btn btn-primary">Get Started</a>
                                     </Link>
                                 </div>
                             </div>

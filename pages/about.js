@@ -22,8 +22,6 @@ class About extends React.Component {
                     <Header />
                     <PageTitle />
                     <AboutArea />
-                    <Partner />
-                    <Funfacts />
                     <Footer />
                     <GoTop scrollStepInPx="50" delayInMs="16.66" />
                 </Preloader>

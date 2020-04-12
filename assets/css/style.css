@@ -106,6 +106,10 @@ p:last-child {
   padding-bottom: 80px;
 }
 
+.mt-10 {
+  margin-top: 10px;
+}
+
 .bg-f7fafd {
   background-color: #f7fafd;
 }
@@ -4562,6 +4566,48 @@ Repair About CSS
 }
 
 /*================================================
+Repair CTA CSS
+=================================================*/
+.repair-cta-area {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cta-repair-content h3 {
+  color: #ffffff;
+  font-size: 25px;
+  margin-bottom: 17px;
+}
+
+.cta-repair-content p {
+  color: #ffffff;
+  opacity: .95;
+  margin-bottom: 25px;
+}
+
+.cta-repair-img {
+  text-align: right;
+}
+
+.circle-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.cta-shape {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+
+/*================================================
 Repair Services CSS
 =================================================*/
 .repair-services-area {
@@ -4577,30 +4623,6 @@ Repair Services CSS
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.single-repair-services.bg1 {
-  background-image: url(../../images/repair-services-img/1.jpg);
-}
-
-.single-repair-services.bg2 {
-  background-image: url(../../images/repair-services-img/2.jpg);
-}
-
-.single-repair-services.bg3 {
-  background-image: url(../../images/repair-services-img/3.jpg);
-}
-
-.single-repair-services.bg4 {
-  background-image: url(../../images/repair-services-img/4.jpg);
-}
-
-.single-repair-services.bg5 {
-  background-image: url(../../images/repair-services-img/5.jpg);
-}
-
-.single-repair-services.bg6 {
-  background-image: url(../../images/repair-services-img/6.jpg);
 }
 
 .single-repair-services::before {
@@ -4628,7 +4650,7 @@ Repair Services CSS
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #3ab2af 0%, #43e794 100%);
+  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
   z-index: -1;
   opacity: 0;
   visibility: hidden;
@@ -4636,16 +4658,17 @@ Repair Services CSS
 }
 
 .single-repair-services h3 {
-  font-size: 18px;
+  font-size: 19px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   margin-top: 22px;
   margin-bottom: 17px;
+  line-height: 1.4;
 }
 
 .single-repair-services .icon {
   display: inline-block;
-  color: var(--main-color);
+  color: #44ce6f;
   width: 85px;
   height: 85px;
   line-height: 85px;
@@ -4703,48 +4726,7 @@ Repair Services CSS
 
 .single-repair-services:hover a, .single-repair-services:focus a {
   background-color: #ffffff;
-  color: var(--main-color);
-}
-
-/*================================================
-Repair CTA CSS
-=================================================*/
-.repair-cta-area {
-  overflow: hidden;
-  position: relative;
-  z-index: 1;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.cta-repair-content h3 {
-  color: #ffffff;
-  font-size: 25px;
-  margin-bottom: 17px;
-}
-
-.cta-repair-content p {
-  color: #ffffff;
-  opacity: .95;
-  margin-bottom: 25px;
-}
-
-.cta-repair-img {
-  text-align: right;
-}
-
-.circle-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
-.cta-shape {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
+  color: #44ce6f;
 }
 
 /*================================================
@@ -5595,4 +5577,179 @@ ML Feedback CSS
 .ml-feedback-slides .owl-dots .owl-dot:hover span::before, .ml-feedback-slides .owl-dots .owl-dot.active span::before {
   -webkit-transform: scale(1);
           transform: scale(1);
+}
+
+
+/*================================================
+ML Main Banner CSS
+=================================================*/
+.ml-main-banner {
+  position: relative;
+  z-index: 1;
+  padding-top: 130px;
+  padding-bottom: 140px;
+  background-image: url('../../images/banner-bg1.jpg');
+  background-position: bottom right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ml-main-banner .container-fluid {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.ml-banner-content h1 {
+  margin-bottom: 15px;
+  line-height: 1.3;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.ml-banner-content p {
+  font-size: 15px;
+  max-width: 490px;
+}
+
+.ml-banner-content .btn {
+  margin-top: 5px;
+}
+
+.ml-banner-single-image {
+  text-align: center;
+}
+
+.ml-main-section {
+  position: relative;
+  z-index: 1;
+  padding-top: 260px;
+  padding-bottom: 240px;
+  background-image: url('../../images/banner-bg1.jpg');
+  background-position: bottom right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ml-main-section .ml-banner-content h1 {
+  font-size: 37px;
+}
+
+.ml-main-section .ml-banner-content p {
+  max-width: 100%;
+}
+
+.ml-banner-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 140px;
+}
+
+.ml-banner-image img {
+  position: absolute;
+}
+
+.ml-banner-image img:nth-child(1) {
+  left: 195px;
+  top: -125px;
+  z-index: 2;
+}
+
+.ml-banner-image img:nth-child(2) {
+  top: -83px;
+  left: 153px;
+  z-index: 1;
+}
+
+.ml-banner-image img:nth-child(3) {
+  top: 40px;
+  left: 90px;
+}
+
+.ml-banner-image img:nth-child(4) {
+  top: 0;
+  right: 165px;
+  z-index: 3;
+}
+
+.ml-banner-image img:nth-child(5) {
+  top: -260px;
+  left: 110px;
+}
+
+.ml-banner-image img:nth-child(6) {
+  right: 130px;
+  top: -240px;
+}
+
+.ml-banner-image img:nth-child(7) {
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.ml-banner-image img:nth-child(8) {
+  right: 10px;
+  bottom: 205px;
+  z-index: 1;
+}
+
+.ml-banner-image img:nth-child(9) {
+  left: 15px;
+  top: -185px;
+  z-index: 1;
+}
+
+.ml-banner-image img:nth-child(10) {
+  left: 1px;
+  bottom: -2px;
+  z-index: 2;
+}
+
+.ml-banner-image img:nth-child(11) {
+  left: 0;
+  top: -20px;
+}
+
+.ml-banner-image img:nth-child(12) {
+  display: none;
+}
+
+/*================================================
+ML Partner CSS
+=================================================*/
+.ml-partner-area.mt-minus-top {
+  margin-top: -80px;
+}
+
+.single-ml-partner {
+  text-align: center;
+}
+
+.single-ml-partner a {
+  display: block;
+  position: relative;
+}
+
+.single-ml-partner a img {
+  width: auto !important;
+  display: inline-block !important;
+}
+
+.single-ml-partner a img:last-child {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.single-ml-partner a:hover img:last-child, .single-ml-partner a:focus img:last-child {
+  opacity: 1;
+  visibility: visible;
+  top: 0;
 }

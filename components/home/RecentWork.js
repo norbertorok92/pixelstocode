@@ -46,10 +46,11 @@ class RecentWork extends React.Component {
                         <div className="item">
                             <div className="col-lg-12">
                                 <div className="single-works">
-                                    <img src={require("../../images/works-image/1.jpg")} alt="image" />
+                                    <img src={require("../../images/works-image/mdclimaterm.jpg")} alt="image" />
 
                                     <div className="works-content">
-                                        <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                                        <h3>MDClimaterm</h3>
+                                        <p>A website for a plumbing and installations company based in Cluj-Napoca.</p>
                                     </div>
                                 </div>
                             </div>
@@ -58,10 +59,11 @@ class RecentWork extends React.Component {
                         <div className="item">
                             <div className="col-lg-12">
                                 <div className="single-works">
-                                    <img src={require("../../images/works-image/2.jpg")} alt="image" />
+                                    <img src={require("../../images/works-image/cryptoz.jpg")} alt="image" />
 
                                     <div className="works-content">
-                                        <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                                        <h3>Cryptoz</h3>
+                                        <p>A multi-functional cryptocurrency mining platform, based in UK.</p>
                                     </div>
                                 </div>
                             </div>
@@ -70,10 +72,11 @@ class RecentWork extends React.Component {
                         <div className="item">
                             <div className="col-lg-12">
                                 <div className="single-works">
-                                    <img src={require("../../images/works-image/3.jpg")} alt="image" />
+                                    <img src={require("../../images/works-image/glowlissorganics.jpg")} alt="image" />
 
                                     <div className="works-content">
-                                        <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                                        <h3>Glowliss Organic</h3>
+                                        <p>An ecommerce store in the beaty and health industry. Based in NYC</p>
                                     </div>
                                 </div>
                             </div>
@@ -82,10 +85,11 @@ class RecentWork extends React.Component {
                         <div className="item">
                             <div className="col-lg-12">
                                 <div className="single-works">
-                                    <img src={require("../../images/works-image/4.jpg")} alt="image" />
+                                    <img src={require("../../images/works-image/gphoto.jpg")} alt="image" />
 
                                     <div className="works-content">
-                                        <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                                        <h3>GPhoto</h3>
+                                        <p>A photo portfolio website for a true artist, based in Romania.</p>
                                     </div>
                                 </div>
                             </div>
@@ -94,10 +98,50 @@ class RecentWork extends React.Component {
                         <div className="item">
                             <div className="col-lg-12">
                                 <div className="single-works">
-                                    <img src={require("../../images/works-image/5.jpg")} alt="image" />
+                                    <img src={require("../../images/works-image/homecorner.jpg")} alt="image" />
                                     
                                     <div className="works-content">
-                                        <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                                        <h3>Home Corner</h3>
+                                        <p>An ecommerce store for a decor company, based in the USA.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="item">
+                            <div className="col-lg-12">
+                                <div className="single-works">
+                                    <img src={require("../../images/works-image/norbertorok.jpg")} alt="image" />
+
+                                    <div className="works-content">
+                                        <h3>Portfolio website</h3>
+                                        <p>A portfolio website for a web developer based in Romania.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="item">
+                            <div className="col-lg-12">
+                                <div className="single-works">
+                                    <img src={require("../../images/works-image/pixelstocode.jpg")} alt="image" />
+
+                                    <div className="works-content">
+                                        <h3>Pixelstocode</h3>
+                                        <p>A company that's all about development and design.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="item">
+                            <div className="col-lg-12">
+                                <div className="single-works">
+                                    <img src={require("../../images/works-image/rollins.jpg")} alt="image" />
+
+                                    <div className="works-content">
+                                        <h3>Rollins shoes</h3>
+                                        <p>A NYC based ecommerce store, that sells handmade shoes.</p>
                                     </div>
                                 </div>
                             </div>

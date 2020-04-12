@@ -6,43 +6,14 @@ class WhyChoose extends Component {
         return (
             <section className="why-choose-us ptb-80 pt-0">
                 <div className="container">
-                    <div className="row align-items-center">
+                    <div className="row align-items-center mt-10">
                         <div className="col-lg-6 col-md-12">
                             <div className="section-title">
                                 <h2>Why Choose Us</h2>
                                 <div className="bar"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </div>
-
-                            <div className="why-choose-us-image">
-                                <ReactWOW animation='fadeInLeft'>
-                                    <img 
-                                        src={require("../../images/why-choose-us-image/man-stand.png")}
-                                        className="wow fadeInLeft" 
-                                        alt="image"
-                                    />
-                                </ReactWOW>
-                                <ReactWOW animation='fadeInRight'>
-                                    <img 
-                                        src={require("../../images/why-choose-us-image/database.png")}
-                                        className="wow fadeInRight" 
-                                        alt="image"
-                                    />
-                                </ReactWOW>
-                                <ReactWOW animation='rotateme'>
-                                    <img 
-                                        src={require("../../images/services-left-image/cercle-shape.png")}
-                                        className="rotateme" 
-                                        alt="image"
-                                    />
-                                </ReactWOW>
-                                <ReactWOW animation='fadeInUp'>
-                                    <img 
-                                        src={require("../../images/why-choose-us-image/main-static.png")}
-                                        className="main-pic" 
-                                        alt="image"
-                                    />
-                                </ReactWOW>
+                                <p>The Internet is built on computers and servers, but there's no net without people–people like you and people like us. In today’s global market, having an online presence isn't just a nice thing to have, it's a necessity. We at Pixelstocode think it’s a basic right.</p>
+                                <br/>
+                                <p>That’s why we’ve made it our mission to provide affordable access to domains, along with the products and services that can help you make your mark online.</p>
                             </div>
                         </div>
 
@@ -54,17 +25,15 @@ class WhyChoose extends Component {
                                             <i className="flaticon-team"></i>
                                         </div>
                                         <h3>Proficient & Friendly</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="single-why-choose-us">
                                         <div className="icon">
-                                            <i className="flaticon-rocket"></i>
+                                            <i className="flaticon-money"></i>
                                         </div>
-                                        <h3>Extremely Fast</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                        <h3>No Hidden Fees</h3>
                                     </div>
                                 </div>
 
@@ -74,7 +43,6 @@ class WhyChoose extends Component {
                                             <i className="flaticon-shield"></i>
                                         </div>
                                         <h3>100% Safe & Security</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
                                     </div>
                                 </div>
 
@@ -84,7 +52,6 @@ class WhyChoose extends Component {
                                             <i className="flaticon-diamond"></i>
                                         </div>
                                         <h3>Top-Rated</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
                                     </div>
                                 </div>
                             </div>
