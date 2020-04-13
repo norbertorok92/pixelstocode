@@ -23,6 +23,7 @@
     "es6-promise": "4.2.6",
     "express": "4.16.4",
     "google-map-react": "1.1.4",
+    "googleapis": "^48.0.0",
     "imagemin-gifsicle": "6.0.1",
     "imagemin-mozjpeg": "8.0.0",
     "imagemin-optipng": "6.0.0",
