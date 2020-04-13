@@ -9,7 +9,7 @@ class MainBanner extends Component {
                 <div className="container">
                     <div className="iot-banner-content">
                         <span>Development Services</span>
-                        <h2>Reach Users Across Platforms</h2>
+                        <h1>Reach Users Across Platforms</h1>
                         <p>Our custom development service offers options for businesses who seek to provide a flexible, consistent experience for users across platforms. Leveraging new approaches to web development including progressive web apps, we bring front-end, back-end and architecture ability together to deliver on your business needs.</p>
                         <Link href="/contact">
                             <a className="btn btn-primary">Get In Touch</a>
@@ -21,14 +21,14 @@ class MainBanner extends Component {
                             <img 
                                 src={require('../../images/iot-banner-image/1.png')}
                                 className="wow fadeInUp" 
-                                data-wow-delay="0.8s" alt="image"
+                                data-wow-delay="0.8s" alt="banner one"
                             />
                         </ReactWOW>
                         <ReactWOW animation='zoomIn'>
                             <img 
                                 src={require('../../images/iot-banner-image/2.png')} 
                                 className="wow zoomIn" 
-                                alt="image"
+                                alt="banner two"
                             />
                         </ReactWOW>
                     </div>

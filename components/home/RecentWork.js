@@ -46,7 +46,7 @@ class RecentWork extends React.Component {
                         <div className="item">
                             <div className="col-lg-12">
                                 <div className="single-works">
-                                    <img src={require("../../images/works-image/mdclimaterm.jpg")} alt="image" />
+                                    <img src={require("../../images/works-image/mdclimaterm.jpg")} alt="mdclimaterm" />
 
                                     <div className="works-content">
                                         <h3>MDClimaterm</h3>
@@ -59,7 +59,7 @@ class RecentWork extends React.Component {
                         <div className="item">
                             <div className="col-lg-12">
                                 <div className="single-works">
-                                    <img src={require("../../images/works-image/cryptoz.jpg")} alt="image" />
+                                    <img src={require("../../images/works-image/cryptoz.jpg")} alt="cryptoz" />
 
                                     <div className="works-content">
                                         <h3>Cryptoz</h3>
@@ -72,7 +72,7 @@ class RecentWork extends React.Component {
                         <div className="item">
                             <div className="col-lg-12">
                                 <div className="single-works">
-                                    <img src={require("../../images/works-image/glowlissorganics.jpg")} alt="image" />
+                                    <img src={require("../../images/works-image/glowlissorganics.jpg")} alt="glowliss organics" />
 
                                     <div className="works-content">
                                         <h3>Glowliss Organic</h3>
@@ -85,7 +85,7 @@ class RecentWork extends React.Component {
                         <div className="item">
                             <div className="col-lg-12">
                                 <div className="single-works">
-                                    <img src={require("../../images/works-image/gphoto.jpg")} alt="image" />
+                                    <img src={require("../../images/works-image/gphoto.jpg")} alt="gphoto" />
 
                                     <div className="works-content">
                                         <h3>GPhoto</h3>
@@ -98,7 +98,7 @@ class RecentWork extends React.Component {
                         <div className="item">
                             <div className="col-lg-12">
                                 <div className="single-works">
-                                    <img src={require("../../images/works-image/homecorner.jpg")} alt="image" />
+                                    <img src={require("../../images/works-image/homecorner.jpg")} alt="homecorner" />
                                     
                                     <div className="works-content">
                                         <h3>Home Corner</h3>
@@ -111,7 +111,7 @@ class RecentWork extends React.Component {
                         <div className="item">
                             <div className="col-lg-12">
                                 <div className="single-works">
-                                    <img src={require("../../images/works-image/norbertorok.jpg")} alt="image" />
+                                    <img src={require("../../images/works-image/norbertorok.jpg")} alt="norbertorok" />
 
                                     <div className="works-content">
                                         <h3>Portfolio website</h3>
@@ -124,7 +124,7 @@ class RecentWork extends React.Component {
                         <div className="item">
                             <div className="col-lg-12">
                                 <div className="single-works">
-                                    <img src={require("../../images/works-image/pixelstocode.jpg")} alt="image" />
+                                    <img src={require("../../images/works-image/pixelstocode.jpg")} alt="pixelstocode" />
 
                                     <div className="works-content">
                                         <h3>Pixelstocode</h3>
@@ -137,7 +137,7 @@ class RecentWork extends React.Component {
                         <div className="item">
                             <div className="col-lg-12">
                                 <div className="single-works">
-                                    <img src={require("../../images/works-image/rollins.jpg")} alt="image" />
+                                    <img src={require("../../images/works-image/rollins.jpg")} alt="rollins shoes" />
 
                                     <div className="works-content">
                                         <h3>Rollins shoes</h3>

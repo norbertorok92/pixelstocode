@@ -50,7 +50,7 @@ class DefaultStyle extends React.Component {
                         <nav className="navbar navbar-expand-md navbar-light">
                             <Link href="/">
                                 <a className="navbar-brand">
-                                    <img src={require("../../images/pixelstocode_without_slogan.png")} alt="logo" width="200" />
+                                    <img src={require("../../images/pixelstocode_without_slogan.png")} alt="pixelstocode logo" width="200" />
                                 </a>
                             </Link>
 

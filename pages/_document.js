@@ -10,9 +10,17 @@ class MyDocument extends Document {
         return (
             <Html lang="en">
                 <Head>
-                    {/* <meta charSet="utf-8" /> */}
-                    <script src="https://cmp.osano.com/Azyw0MRqrhfqmam6/6d2016f3-1287-476c-874e-45b09e6d2a06/osano.js"></script>
+                    <meta name="description" content="We are a world-class web development agency and we build amazing digital products." />
+                    <link rel="canonical" href="https://www.pixelstocode.com/" />
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+                    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                    <meta property="og:title" content="Pixelstocode | Web Development Agency" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:url" content="https://www.pixelstocode.com/" />
+                    <meta property="og:image" content="https://www.pixelstocode.com/_next/static/images/pixelstocode_without_slogan-84c5a1fe5df4a4933983ada56b1623a1.png" />
+                    <meta property="og:description" content="We are a world-class web development agency and we build amazing digital products." />
+                    <meta property="og:site_name" content="Pixelstocode" />
+                    <meta property="og:locale" content="en_US" />
                     <link rel="icon" type="image/png" href={require("../images/favicon.png")}></link>
                 </Head>
                 <body>

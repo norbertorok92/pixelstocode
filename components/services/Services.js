@@ -23,7 +23,7 @@ class Services extends Component {
                   <div className="image">
                     <img
                       src={require("../../images/services-image/service-image2.png")}
-                      alt="image"
+                      alt="development services"
                     />
                   </div>
                   <h3>
@@ -39,7 +39,7 @@ class Services extends Component {
                   <div className="image">
                     <img
                       src={require("../../images/services-image/service-image4.png")}
-                      alt="image"
+                      alt="web hosting services"
                     />
                   </div>
                   <h3>
@@ -55,7 +55,7 @@ class Services extends Component {
                   <div className="image">
                     <img
                       src={require("../../images/services-image/service-image1.png")}
-                      alt="image"
+                      alt="digital services"
                     />
                   </div>
                   <h3>

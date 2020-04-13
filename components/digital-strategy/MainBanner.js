@@ -22,51 +22,51 @@ class MainBanner extends Component {
                         <div className="col-lg-6 col-md-12">
                             <div className="ml-banner-image">
                                 <ReactWOW delay='2s' animation='fadeIn'>
-                                    <img src={require("../../images/ml-banner-image/one.png")} className="wow fadeIn" data-wow-delay="2s" alt="image" />
+                                    <img src={require("../../images/ml-banner-image/one.png")} className="wow fadeIn" data-wow-delay="2s" alt="digital services" />
                                 </ReactWOW>
 
                                 <ReactWOW delay='1s' animation='fadeInUp'>
-                                    <img src={require("../../images/ml-banner-image/two.png")} className="wow fadeInUp" data-wow-delay="1s" alt="image" />
+                                    <img src={require("../../images/ml-banner-image/two.png")} className="wow fadeInUp" data-wow-delay="1s" alt="digital services" />
                                 </ReactWOW>
 
                                 <ReactWOW delay='0.5s' animation='fadeInUp'>
-                                    <img src={require("../../images/ml-banner-image/three.png")} className="wow fadeInUp" data-wow-delay="0.5s" alt="image" />
+                                    <img src={require("../../images/ml-banner-image/three.png")} className="wow fadeInUp" data-wow-delay="0.5s" alt="digital services" />
                                 </ReactWOW>
 
                                 <ReactWOW delay='2s' animation='fadeInUp'>
-                                    <img src={require("../../images/ml-banner-image/four.png")} className="wow fadeInUp" data-wow-delay="2s" alt="image" />
+                                    <img src={require("../../images/ml-banner-image/four.png")} className="wow fadeInUp" data-wow-delay="2s" alt="digital services" />
                                 </ReactWOW>
 
                                 <ReactWOW delay='2.5s' animation='fadeInDown'>
-                                    <img src={require("../../images/ml-banner-image/five.png")} className="wow fadeInDown" data-wow-delay="2.5s" alt="image" />
+                                    <img src={require("../../images/ml-banner-image/five.png")} className="wow fadeInDown" data-wow-delay="2.5s" alt="digital services" />
                                 </ReactWOW>
 
                                 <ReactWOW delay='2s' animation='fadeInDown'>
-                                    <img src={require("../../images/ml-banner-image/six.png")} className="wow fadeInDown" data-wow-delay="1.9s" alt="image" />
+                                    <img src={require("../../images/ml-banner-image/six.png")} className="wow fadeInDown" data-wow-delay="1.9s" alt="digital services" />
                                 </ReactWOW>
 
                                 <ReactWOW delay='2.1s' animation='fadeInDown'>
-                                    <img src={require("../../images/ml-banner-image/seven.png")} className="wow fadeInDown" data-wow-delay="2.1s" alt="image" />
+                                    <img src={require("../../images/ml-banner-image/seven.png")} className="wow fadeInDown" data-wow-delay="2.1s" alt="digital services" />
                                 </ReactWOW>
 
                                 <ReactWOW delay='1.9s' animation='fadeInDown'>
-                                    <img src={require("../../images/ml-banner-image/eight.png")} className="wow fadeInDown" data-wow-delay="1.9s" alt="image" />
+                                    <img src={require("../../images/ml-banner-image/eight.png")} className="wow fadeInDown" data-wow-delay="1.9s" alt="digital services" />
                                 </ReactWOW>
 
                                 <ReactWOW delay='1.7s' animation='fadeInDown'>
-                                    <img src={require("../../images/ml-banner-image/nine.png")} className="wow fadeInDown" data-wow-delay="1.7s" alt="image" />
+                                    <img src={require("../../images/ml-banner-image/nine.png")} className="wow fadeInDown" data-wow-delay="1.7s" alt="digital services" />
                                 </ReactWOW>
                                 
                                 <ReactWOW delay='1.5s' animation='fadeInDown'>
-                                    <img src={require("../../images/ml-banner-image/ten.png")} className="wow fadeInDown" data-wow-delay="1.5s" alt="image" />
+                                    <img src={require("../../images/ml-banner-image/ten.png")} className="wow fadeInDown" data-wow-delay="1.5s" alt="digital services" />
                                 </ReactWOW>
                                 
                                 <ReactWOW delay='0.4s' animation='fadeInUp'>
-                                    <img src={require("../../images/ml-banner-image/eleven.png")} className="wow fadeInUp" data-wow-delay="0.4s" alt="image" />
+                                    <img src={require("../../images/ml-banner-image/eleven.png")} className="wow fadeInUp" data-wow-delay="0.4s" alt="digital services" />
                                 </ReactWOW>
 
                                 <ReactWOW delay='0.5s' animation='fadeInUp'>
-                                    <img src={require("../../images/ml-banner-image/ml-main-pic.png")} className="wow fadeInUp" data-wow-delay="0.5s" alt="image" />
+                                    <img src={require("../../images/ml-banner-image/ml-main-pic.png")} className="wow fadeInUp" data-wow-delay="0.5s" alt="digital services" />
                                 </ReactWOW>
                             </div>
                         </div>

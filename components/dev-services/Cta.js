@@ -33,8 +33,8 @@ class Cta extends Component {
                     </div>
                 </div>
 
-                <div className="circle-box"><img src={require('../../images/circle.png')} alt="image" /></div>
-                <div className="cta-shape"><img src={require('../../images/cta-shape.png')} alt="image" /></div>
+                <div className="circle-box"><img src={require('../../images/circle.png')} alt="shape" /></div>
+                <div className="cta-shape"><img src={require('../../images/cta-shape.png')} alt="shape" /></div>
             </section>
         );
     }

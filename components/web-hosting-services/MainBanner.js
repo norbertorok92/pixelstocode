@@ -31,61 +31,61 @@ class MainBanner extends Component {
                                         <ReactWOW delay='0.7s' animation='fadeInDown'>
                                             <img 
                                                 src={require("../../images/hosting-banner-image/1.png")}
-                                                alt="image"
+                                                alt="web hosting banner"
                                             />
                                         </ReactWOW>
                                         <ReactWOW delay='0.7s' animation='fadeInDown'>
                                             <img 
                                                 src={require("../../images/hosting-banner-image/2.png")}
-                                                alt="image"
+                                                alt="web hosting banner"
                                             />
                                         </ReactWOW>
                                         <ReactWOW delay='0.7s' animation='fadeInDown'>
                                             <img 
                                                 src={require("../../images/hosting-banner-image/3.png")} 
-                                                alt="image"
+                                                alt="web hosting banner"
                                             />
                                         </ReactWOW>
                                         <ReactWOW delay='0.7s' animation='fadeInDown'>
                                             <img 
                                                 src={require("../../images/hosting-banner-image/4.png")}
-                                                alt="image"
+                                                alt="web hosting banner"
                                             />
                                         </ReactWOW>
                                         <ReactWOW delay='0.7s' animation='fadeInDown'>
                                             <img 
                                                 src={require("../../images/hosting-banner-image/5.png")} 
-                                                alt="image"
+                                                alt="web hosting banner"
                                             />
                                         </ReactWOW>
                                         <ReactWOW delay='0.7s' animation='fadeInDown'>
                                             <img 
                                                 src={require("../../images/hosting-banner-image/6.png")}
-                                                alt="image"
+                                                alt="web hosting banner"
                                             />
                                         </ReactWOW>
                                         <ReactWOW delay='0.7s' animation='fadeInDown'>
                                             <img 
                                                 src={require("../../images/hosting-banner-image/7.png")}
-                                                alt="image"
+                                                alt="web hosting banner"
                                             />
                                         </ReactWOW>
                                         <ReactWOW delay='0.7s' animation='fadeInDown'>
                                             <img 
                                                 src={require("../../images/hosting-banner-image/8.png")}
-                                                alt="image"
+                                                alt="web hosting banner"
                                             />
                                         </ReactWOW>
                                         <ReactWOW delay='0.7s' animation='fadeInDown'>
                                             <img 
                                                 src={require("../../images/hosting-banner-image/9.png")}
-                                                alt="image"
+                                                alt="web hosting banner"
                                             />
                                         </ReactWOW>
                                         <ReactWOW delay='0.5s' animation='fadeInUp'>
                                             <img 
                                                 src={require("../../images/hosting-banner-image/static-main.png")}
-                                                alt="image"
+                                                alt="web hosting banner"
                                             />
                                         </ReactWOW>
                                     </div>

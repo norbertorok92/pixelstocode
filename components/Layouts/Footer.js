@@ -13,7 +13,7 @@ export default class Footer extends React.Component {
                                 <div className="logo">
                                     <Link href="#">
                                         <a>
-                                            <img src={require("../../images/pixelstocode_with_slogan.png")} alt="logo" width="225" />
+                                            <img src={require("../../images/pixelstocode_with_slogan.png")} alt="pixelstocode logo" width="225" />
                                         </a>
                                     </Link>
                                 </div>

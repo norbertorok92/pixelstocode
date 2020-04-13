@@ -17,7 +17,7 @@ class WhyChoose extends Component {
                         <div className="col-lg-4 col-md-6">
                             <div className="single-iot-box">
                                 <div className="icon">
-                                    <img src={require('../../images/icon1.png')} alt="image" />
+                                    <img src={require('../../images/icon1.png')} alt="technology" />
                                 </div>
                                 <h3>Technology</h3>
                             </div>
@@ -26,7 +26,7 @@ class WhyChoose extends Component {
                         <div className="col-lg-4 col-md-6">
                             <div className="single-iot-box">
                                 <div className="icon">
-                                    <img src={require('../../images/icon2.png')} alt="image" />
+                                    <img src={require('../../images/icon2.png')} alt="security" />
                                 </div>
                                 <h3>Security</h3>
                             </div>
@@ -35,7 +35,7 @@ class WhyChoose extends Component {
                         <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
                             <div className="single-iot-box">
                                 <div className="icon">
-                                    <img src={require('../../images/icon3.png')} alt="image" />
+                                    <img src={require('../../images/icon3.png')} alt="optimization" />
                                 </div>
                                 <h3>Optimization</h3>
                             </div>

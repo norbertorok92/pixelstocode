@@ -72,7 +72,7 @@ const MainBanner = () => {
                                             src={require("../../images/banner-image/dekstop.png")} 
                                             className="wow fadeInDown" 
                                             data-wow-delay="0.6s" 
-                                            alt="dekstop"
+                                            alt="desktop"
                                         />
                                     </ReactWOW>
                                     <ReactWOW delay='0.5s' animation='zoomIn'>
