@@ -87,7 +87,7 @@ export default class Footer extends React.Component {
                                 </ul>
                                 <ul className="social-links">
                                     <li>
-                                        <Link href="https://www.facebook.com/Pixelstocode-102395918024674">
+                                        <Link href="https://www.facebook.com/hello.pixelstocode">
                                             <a className="facebook"><Icon.Facebook /></a>
                                         </Link>
                                     </li>

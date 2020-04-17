@@ -356,7 +356,7 @@ class ServicesArea extends React.Component {
 
                             <div className="col-lg-6 col-md-12 services-content">
                                 <div className="section-title">
-                                    <h2>DIgital Strategy</h2>
+                                    <h2>Digital Strategy</h2>
                                     <div className="bar"></div>
                                     <Link href="/digital-strategy">
                                         <a className="btn btn-primary btn-small">More Info</a>

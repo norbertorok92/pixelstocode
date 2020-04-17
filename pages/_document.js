@@ -22,6 +22,7 @@ class MyDocument extends Document {
                     <meta property="og:site_name" content="Pixelstocode" />
                     <meta property="og:locale" content="en_US" />
                     <link rel="icon" type="image/png" href={require("../images/favicon.png")}></link>
+                    <script src="https://cmp.osano.com/Azyw0MRqrhfqmam6/6d2016f3-1287-476c-874e-45b09e6d2a06/osano.js"></script>
                 </Head>
                 <body>
                     <Main />
