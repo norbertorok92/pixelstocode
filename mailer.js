@@ -21,7 +21,7 @@ const send = ({ name, email, phone, subject, text }) => {
 
     const message = {
         from,
-        to: 'norbert.torok92@gmail.com',
+        to: 'hello@pixelstocode.com',
         subject: subject,
         text: textBody,
         replyTo: from
