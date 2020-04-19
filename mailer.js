@@ -13,14 +13,22 @@ const send = async (req, res) => {
     html: `<p>${message}</p>`
   }
 
-  try {
-    await sgMail.send(content)
-    res.status(200).send('Message sent successfully.')
-  } catch (error) {
-      console.log('process.env.SENDGRID_API_KEY', process.env)
-    console.log('ERROR', error)
-    res.status(400).send('Message not sent.')
-  }
+  console.log('HI', sgMail.send(content))
+
+//   try {
+//     await sgMail.send(content)
+//     res.status(200).send('Message sent successfully.')
+//   } catch (error) {
+//       console.log('process.env.SENDGRID_API_KEY', process.env)
+//     console.log('ERROR', error)
+//     res.status(400).send('Message not sent.')
+//   }
+
+    return new Promise((resolve, reject) => {
+        sgMail.send(content, (error, response) =>
+            error ? reject(error) : resolve(response)
+        )
+    })
 }
 
 module.exports = send

@@ -34,7 +34,11 @@ app.prepare().then(() => {
     });
 
     server.post('/api/send', (req, res) => {
-       mailer(req, res)
+       mailer(req, res).then(() => {
+            res.send('success')
+        }).catch(error => {
+            res.send(error)
+        });
     });
 
     const PORT = process.env.PORT || 3000;
