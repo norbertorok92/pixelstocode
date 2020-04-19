@@ -29,7 +29,7 @@ app.prepare().then(() => {
         mailer({name, email, phone, subject, text}).then(() => {
             res.send('success')
         }).catch(error => {
-            res.status(422).send(error)
+            res.send(error)
         });
     });
 

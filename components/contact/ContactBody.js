@@ -19,18 +19,24 @@ export default class ContactBody extends React.Component {
         }
     };
 
-    onSubmit = (e) => {
-        e.preventDefault();
-        const data = this.state.formFields;
-        fetch('/api/contact', {
-            method: 'post',
-            headers: {
-                'Accept': 'application/json, text/plain, */*',
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(data)
-        }).then(res => {
-            res.status === 200 ? this.setState({ submitted: true }) : ''
+    // const [status, setStatus] = useState({
+    //     submitted: false,
+    //     submitting: false,
+    //     info: { error: false, msg: null }
+    // })
+
+    // const [inputs, setInputs] = useState({
+    //     email: '',
+    //     message: ''
+    // })
+
+    handleResponse = (status, msg) => {
+        if (status === 200) {
+            this.setState({
+                submitted: true,
+                submitting: false,
+                info: { error: false, msg: msg }
+            })
             let formFields = Object.assign({}, this.state.formFields);
             formFields.name = '';
             formFields.email = '';
@@ -38,8 +44,63 @@ export default class ContactBody extends React.Component {
             formFields.subject = '';
             formFields.text = '';
             this.setState({formFields});
-        });
+        } else {
+            this.setState({
+                info: { error: true, msg: msg }
+            })
+        }
     }
+
+    handleOnChange = e => {
+        e.persist()
+        setInputs(prev => ({
+        ...prev,
+        [e.target.id]: e.target.value
+        }))
+        this.setState({
+            submitted: false,
+            submitting: false,
+            info: { error: false, msg: null }
+        })
+    }
+
+    onSubmit = async e => {
+        e.preventDefault()
+        const data = this.state.formFields;
+        this.setState(prevStatus => ({ ...prevStatus, submitting: true }))
+        const res = await fetch('/api/contact', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+        const text = await res.text()
+        this.handleResponse(res.status, text)
+    }
+
+    // onSubmit = (e) => {
+    //     e.preventDefault();
+    //     const data = this.state.formFields;
+    //     fetch('/api/contact', {
+    //         method: 'POST',
+    //         headers: {
+    //             'Accept': 'application/json, text/plain, */*',
+    //             'Content-Type': 'application/json'
+    //         },
+    //         body: JSON.stringify(data)
+    //     }).then(res => {
+    //         console.log('RES', res);
+    //         res.status === 200 ? this.setState({ submitted: true }) : ''
+    //         let formFields = Object.assign({}, this.state.formFields);
+    //         formFields.name = '';
+    //         formFields.email = '';
+    //         formFields.phone = '';
+    //         formFields.subject = '';
+    //         formFields.text = '';
+    //         this.setState({formFields});
+    //     });
+    // }
 
     nameChangeHandler = (e) => {
         let formFields = Object.assign({}, this.state.formFields);
