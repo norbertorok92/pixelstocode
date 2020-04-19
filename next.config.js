@@ -3,7 +3,22 @@ const withCSS = require('@zeit/next-css');
 const withFonts = require('next-fonts');
 const withPlugins = require('next-compose-plugins');
 const optimizedImages = require('next-optimized-images');
+const webpack = require("webpack");
 require('dotenv').config()
+
+const nextConfig = {
+    webpack: (config, { defaultLoaders }) => {
+        config.node = {
+            fs: "empty",
+            net: "empty",
+            tls: "empty"
+        };
+        return config;
+    },
+    env: {
+        SENDGRID_API_KEY: process.env.SENDGRID_API_KEY
+    }
+};
 
 module.exports = withPlugins([
     [optimizedImages, {
@@ -29,14 +44,5 @@ module.exports = withPlugins([
             quality: 75,
         }
     }],
-    {
-        env: {
-            SENDGRID_API_KEY: process.env.SENDGRID_API_KEY
-        },
-        node: {
-            fs: 'empty'
-        }
-    },
-    [withCSS], [withFonts]
-   
-]);
+    [withCSS], [withFonts],
+],nextConfig);
