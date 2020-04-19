@@ -1,37 +1,27 @@
-const nodemailer = require('nodemailer')
-const sgTransport = require('nodemailer-sendgrid-transport')
 
-const transporter = nodemailer.createTransport(sgTransport({
-    auth: {
-      api_key: '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'
-    }
-}))
+const sgMail = require('@sendgrid/mail')
 
-const send = ({ name, email, phone, subject, text }) => {
+const send = async (req, res) => {
+  sgMail.setApiKey(process.env.SENDGRID_API_KEY)
 
-    const textBody = `Name: ${name}   
-                Subject: ${subject}             
-                Email: ${email}
-                Phone: ${phone}
-                Body: ${text}
-                This email came from PixelsToCode
-                `
+  const { email, message } = req.body
 
-    const from = name && email ? `${name} <${email}>` : `${name || email}`
+  const content = {
+    to: 'norbert.torok92@gmail.com',
+    from: email,
+    subject: `New Message From - ${email}`,
+    text: message,
+    html: `<p>${message}</p>`
+  }
 
-    const message = {
-        from,
-        to: 'hello@pixelstocode.com',
-        subject: subject,
-        text: textBody,
-        replyTo: from
-    }
-
-    return new Promise((resolve, reject) => {
-        transporter.sendMail(message, (error, info) =>
-            error ? reject(error) : resolve(info)
-        )
-    })
+  try {
+    await sgMail.send(content)
+    res.status(200).send('Message sent successfully.')
+  } catch (error) {
+      console.log('process.env.SENDGRID_API_KEY', process.env.SENDGRID_API_KEY)
+    console.log('ERRORrrr', process.env.SENDGRID_API_KEY)
+    res.status(400).send('Message not sent.')
+  }
 }
 
 module.exports = send

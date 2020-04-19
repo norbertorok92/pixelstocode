@@ -2,8 +2,8 @@ const express = require('express');
 const next = require('next');
 const path = require('path');
 const bodyParser = require('body-parser');
-// const mailer = require('./mailer');
-const mailer = require('./emailHelper');
+const mailer = require('./mailer');
+// const mailer = require('./emailHelper');
 
 const dev = process.env.NODE_ENV !== 'production';
 
@@ -31,6 +31,10 @@ app.prepare().then(() => {
         }).catch(error => {
             res.send(error)
         });
+    });
+
+    server.post('/api/send', (req, res) => {
+       mailer(req, res)
     });
 
     const PORT = process.env.PORT || 3000;
