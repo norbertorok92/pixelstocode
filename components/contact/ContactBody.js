@@ -54,12 +54,12 @@ export default () => {
   const handleOnSubmit = async (e) => {
     e.preventDefault();
     setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
-    const res = await fetch("/api/contact", {
+    const res = await fetch("/api/send", {
       method: "POST",
       headers: {
             'Accept': 'application/json, text/plain, */*',
             'Content-Type': 'application/json',
-            'Authorization': `Bearer ${process.env.SENDGRID_API_KEY}`
+            // 'Authorization': `Bearer ${process.env.SENDGRID_API_KEY}`
         },
       body: JSON.stringify(inputs),
     });

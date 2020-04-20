@@ -24,7 +24,7 @@ app.prepare().then(() => {
         return handle(req, res)
     });
 
-    server.post('/api/contact', (req, res) => {
+    server.post('/api/send', (req, res) => {
        mailer(req, res).then(() => {
             res.send('success')
         }).catch(error => {
