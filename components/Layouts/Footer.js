@@ -78,7 +78,7 @@ export default class Footer extends React.Component {
                                     </li>
                                     <li>
                                         <Icon.Mail />
-                                        Email: <Link href="mailto:hello@pixelstocode.com"><a>hello@pixelstocode.com</a></Link>
+                                        Email: <Link href="mailto:contact@pixelstocode.com"><a>contact@pixelstocode.com</a></Link>
                                     </li>
                                 </ul>
                                 <ul className="social-links">
