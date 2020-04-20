@@ -57,8 +57,10 @@ export default () => {
     const res = await fetch("/api/contact", {
       method: "POST",
       headers: {
-        "Content-Type": "application/json",
-      },
+            'Accept': 'application/json, text/plain, */*',
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${process.env.SENDGRID_API_KEY}`
+        },
       body: JSON.stringify(inputs),
     });
     const text = await res.text();
