@@ -20,7 +20,7 @@ export default class MyApp extends App {
         return (
             <Container>
                 <Head>
-                    <title>Pixelstocode | Web Development Agency | Seamless collaboration, total transparency, secure delivery.</title>
+                    <title>Pixelstocode | Web Development Agency | Seamless collaboration</title>
                 </Head>
                 <GAnalytics>
                     <Component {...pageProps} />
