@@ -17,7 +17,7 @@ export default class Footer extends React.Component {
                                         </a>
                                     </Link>
                                 </div>
-                                <p>We love finding solutions to complicated problems by solving the unsolvable. We're ready to turn your big idea into a reality.</p>
+                                <p>We love finding solutions to complicated problems. So we're ready to turn your big idea into a reality. Web applications, online stores or presentation websites, we got you covered.</p>
                             </div>
                         </div>
 
@@ -48,11 +48,6 @@ export default class Footer extends React.Component {
                             <div className="single-footer-widget">
                                 <h3>Support</h3>
                                 <ul className="list">
-                                    {/* <li>
-                                        <Link href="/faq">
-                                            <a>FAQ's</a>
-                                        </Link>
-                                    </li> */}
                                     <li>
                                         <Link href="/privacy-policy">
                                             <a>Privacy Policy</a>
@@ -103,7 +98,8 @@ export default class Footer extends React.Component {
 
                         <div className="col-lg-12 col-md-12">
                             <div className="copyright-area">
-                                <p>Copyright @2020 PixelsToCode. All rights reserved</p>
+                                <p>Copyright @2020 <Link href="https://www.pixelstocode.com/">PixelsToCode</Link>. All rights reserved.</p>
+                                <p>Passion ❤️ Dedication 👨🏻‍💻 And a lot of coffee ☕️</p>
                             </div>
                         </div>
                     </div>

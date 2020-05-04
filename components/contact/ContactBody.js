@@ -76,10 +76,10 @@ export default () => {
       <section className="contact-area ptb-80">
         <div className="container">
           <div className="section-title">
-            <h2>Anything On your Mind. We’ll Be Glad To Assist You!</h2>
+            <h2>Anything On your Mind. We are Be Glad To Assist You!</h2>
             <div className="bar"></div>
             <p>
-              Don’t let technology hold you back. Break free and discover how
+              Don't let technology hold you back. Break free and discover how
               our company can help your business grow exponentially.
             </p>
           </div>

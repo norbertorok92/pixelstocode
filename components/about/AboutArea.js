@@ -20,9 +20,9 @@ export default function About() {
 										<div className="bar"></div>
 									</div>
 
-									<p>Two things that go well together: Who we are and what we do.</p>
+									<p>There are two things that go well together: Who we are and what we do.</p>
 
-									<p>We’re a team of motivated thinkers who love to get things done. Our approach helps us put our talents to work in service to our clients. We like it here — and we think you will, too.</p>
+									<p>We're a team of motivated developers who love to get things done. Our workflow helps us put our talents to work for our clients. We like what we do — and we think you will, too.</p>
 								</div>
 							</div>
 						</div>
@@ -32,21 +32,22 @@ export default function About() {
 								<div className="col-lg-4 col-md-6">
 									<div className="about-text">
 										<h3>Where we've been</h3>
-										<p>We developed our first web app in 2015. Since then, we’ve grown and evolved to cover the full spectrum of software solutions and services for clients all over the world.</p>
+										<p>We developed our first web app in 2015. Since then, we've grown and evolved to cover the full spectrum of software solutions and services for clients all over the world.</p>
+										<p>We cover you with skills in NodeJS, ReactJS, React Native, AngularJS, NextJS, Wordpress, Shopify, and much more</p>
 									</div>
 								</div>
 
 								<div className="col-lg-4 col-md-6">
 									<div className="about-text">
 										<h3>Where we are</h3>
-										<p>We’re in Europe’s Silicon Valley and we are continuisly investing in our clients’ business challenges and bring innovative ideas to every project.</p>
+										<p>We're in a place called Europe's Silicon Valley, Cluj-Napoca but we remote is what we love, so it doesn't matter where is your business, we are here to help.</p>
 									</div>
 								</div>
 
 								<div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
 									<div className="about-text">
 										<h3>Where we're going</h3>
-										<p>We’re constantly looking to what’s next.The future for us also means global expansion.</p>
+										<p>We're constantly looking to what's next. New chellanges, clients who are satisfied with our development services. The future for us also means global expansion.</p>
 									</div>
 								</div>
 							</div>

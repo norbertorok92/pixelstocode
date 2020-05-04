@@ -33,7 +33,7 @@ const BoxArea = (props) => {
                                 <Icon.Smartphone />
 							</div>
 							<h3>Mobile Development</h3>
-							<p>From pure native to cross-platform, we’ll help you select the best choice for your app.</p>
+							<p>From pure native to cross-platform, we'll help you select the best choice for your app.</p>
 						</div>
 					</div>
 
@@ -43,7 +43,7 @@ const BoxArea = (props) => {
                                 <Icon.Target />
 							</div>
 							<h3>Digital Strategy</h3>
-							<p>We’ll help you define the scope, technology stack, and potential of your solution.</p>
+							<p>We'll help you define the scope, technology stack, and potential of your solution.</p>
 						</div>
 					</div>
 				</div>

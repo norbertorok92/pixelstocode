@@ -60,7 +60,7 @@ class Funfacts extends React.Component {
                                 <h3>
                                     <Odometer format="d" duration="500" value={ideas} />
                                 </h3>
-                                <p>Crazy ideas</p>
+                                <p>Crazy Ideas</p>
                             </div>
                         </div>
     
@@ -75,8 +75,8 @@ class Funfacts extends React.Component {
                     </div>
     
                     <div className="contact-cta-box">
-                        <h3>Have any question about us?</h3>
-                        <p>Don't hesitate to contact us</p>
+                        <h3>Have any question?</h3>
+                        <p>Don't hesitate to contact us. We're here to help you with any idea, crazy or not, it doesn't matter. Application - mobile or web, online store, presentation site, you name it, we make it.</p>
                         <Link activeClassName="active" href="/contact">
                             <a className="btn btn-primary">Contact Us</a>
                         </Link>

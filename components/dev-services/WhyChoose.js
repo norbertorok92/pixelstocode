@@ -8,9 +8,9 @@ class WhyChoose extends Component {
             <section className="iot-why-choose-us ptb-80 pb-0">
                 <div className="container">
                     <div className="section-title">
-                        <h2>Why We Are Different From Others</h2>
+                        <h2>Why We Are Different From Others?</h2>
                         <div className="bar"></div>
-                        <p>Technology is transforming the way we buy, sell, and do everything. We help clients unlock potential and fuel growth with software development services.</p>
+                        <p>Technology is transforming the way we buy, sell, and do everything. We help clients unlock potential and help them grow with our software development services.</p>
                     </div>
                     
                     <div className="row">

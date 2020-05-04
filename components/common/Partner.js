@@ -14,7 +14,7 @@ export default class Partner extends React.Component {
                         </Link>
                         <span>
                             <Link href="/services">
-                                <a>Or, learn more about our services</a>
+                                <a>Or, learn more about our development services.</a>
                             </Link>
                         </span>
                     </div>

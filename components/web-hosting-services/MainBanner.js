@@ -12,7 +12,7 @@ class MainBanner extends Component {
                             <div className="row align-items-center">
                                 <div className="col-lg-6 col-md-12">
                                     <div className="hosting-banner-content">
-                                        <h1>Hosting for your needs</h1>
+                                        <h1>Web Hosting for your needs</h1>
                                         <ul>
                                             <li>FREE Domain Name for 1st Year</li>
                                             <li>FREE SSL Certificate Included</li>

@@ -11,7 +11,8 @@ class MainBanner extends Component {
                         <div className="col-lg-6 col-md-12">
                             <div className="ml-banner-content">
                                 <h1>Digital Strategy suited for you</h1>
-                                <p>We are a passionate agency that specializes in beautiful and easy-to-use design, development and advertising services. From A to Z. Your idea is our challenge.</p>
+                                <p>A passionate web agency that specializes in beautiful and easy-to-use design, web development and advertising services. The first step is the hardest, but we can help you through it. We help you plan the whole process from A to Z, making a strategy a plan and a goal.</p>
+                                <p>You tell us about your idea, we figure out a solution for you, meaning what technologie we use, and we are going to through the whole plan, until we reach the final product. And the 100% satisfaction. Your idea is our challenge.</p>
 
                                 <Link href="/contact">
                                     <a className="btn btn-primary">Talk To Us</a>

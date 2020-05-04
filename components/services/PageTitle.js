@@ -5,8 +5,9 @@ export default function PageTitle() {
         <div className="page-title-area">
             <div className="d-table">
                 <div className="d-table-cell">
-                    <div className="container">
-                        <h2>Services</h2>
+                    <div className="section-title">
+                        <h2>Digital services</h2>
+                        <div className="bar"></div>
                     </div>
                 </div>
             </div>

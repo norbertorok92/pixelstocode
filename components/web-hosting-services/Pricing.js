@@ -8,9 +8,9 @@ class Pricing extends Component {
             <section className="pricing-area ptb-80 bg-f7fafd">
                 <div className="container">
                     <div className="section-title">
-                        <h2>Hosting Plans</h2>
+                        <h2>Web Hosting Plans</h2>
                         <div className="bar"></div>
-                        <p>Meet the offers you can’t refuse.</p>
+                        <p>Meet the offers you can't refuse.</p>
                     </div>
 
                     <div className="row">

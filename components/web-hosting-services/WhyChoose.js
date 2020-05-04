@@ -11,9 +11,9 @@ class WhyChoose extends Component {
                             <div className="section-title">
                                 <h2>Why Choose Us</h2>
                                 <div className="bar"></div>
-                                <p>The Internet is built on computers and servers, but there's no net without people–people like you and people like us. In today’s global market, having an online presence isn't just a nice thing to have, it's a necessity. We at Pixelstocode think it’s a basic right.</p>
+                                <p>The Internet is built on computers and servers, but there's no internet without people like you and people like us. In today's global market, having an online presence isn't just a nice thing to have, it's a necessity. We at Pixelstocode think it's a basic right.</p>
                                 <br/>
-                                <p>That’s why we’ve made it our mission to provide affordable access to domains, along with the products and services that can help you make your mark online.</p>
+                                <p>That's why we've made it our mission to provide affordable access to domains, along with the digital services that can help you make your mark online.</p>
                             </div>
                         </div>
 

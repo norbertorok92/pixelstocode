@@ -8,11 +8,8 @@ class Services extends Component {
         <section className="ml-services-area ptb-80">
           <div className="container">
             <div className="section-title">
-              <h2>Core Project Competencies</h2>
-              <div className="bar"></div>
               <h5>
-                Have a look, some could be interesting to help you achieve your
-                business goals or start that project
+                Take a look, some could be interesting to help you achieve your business goals or start that project.
               </h5>
               <h5>you always wanted to do... Yes, that one!</h5>
             </div>
@@ -31,6 +28,9 @@ class Services extends Component {
                       <a className="btn btn-light">Development Services</a>
                     </Link>
                   </h3>
+                  <p>
+                    We can help you build a web application that helps your business grow.
+                  </p>
                 </div>
               </div>
 
@@ -47,6 +47,9 @@ class Services extends Component {
                       <a className="btn btn-light">Web Hosting Services</a>
                     </Link>
                   </h3>
+                  <p>
+                    It is extremely important to have a good hosting service, we got this too.
+                  </p>
                 </div>
               </div>
 
@@ -63,6 +66,9 @@ class Services extends Component {
                       <a className="btn btn-light">Digital Strategy</a>
                     </Link>
                   </h3>
+                  <p>
+                    We will help you in the whole process, from planing to release.
+                  </p>
                 </div>
               </div>
 

@@ -13,9 +13,7 @@ const MainBanner = () => {
 								<div className="hero-content">
 									<h4>Hello</h4>
 									<h1>Start with a pixel!</h1>
-									<h5>Seamless collaboration, total transparency,</h5>
-									<h5>secure delivery. We’ve developed a better</h5>
-									<h5>approach to custom software development.</h5>
+									<h5>Seamless collaboration, total transparency, and secure software. We're happy to help you with. Web Applications, Online Stores, Presentation Websites, you name it, we make it.</h5>
 									
 								</div>
                                 <div className="ptb-80">

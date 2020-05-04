@@ -24,7 +24,7 @@ class Cta extends Component {
                         <div className="col-lg-6">
                             <div className="cta-iot-content">
                                 <h3>We thrive on complexity.</h3>
-                                <p>We love finding solutions to complicated problems by solving the unsolvable. We're ready to turn your big idea into a reality.</p>
+                                <p>Finding solutions to complicated problems by solving the unsolvable. We're ready to turn your big idea into a reality, mobile or web applications, online stores, content-management-sistems, you name it, we make it.</p>
                                 <Link href="/contact">
                                     <a className="btn btn-primary">Talk To Us</a>
                                 </Link>

@@ -50,7 +50,7 @@ class RecentWork extends React.Component {
 
                                     <div className="works-content">
                                         <h3>MDClimaterm</h3>
-                                        <p>A website for a plumbing and installations company based in Cluj-Napoca.</p>
+                                        <p>A presentation website for a plumbing and installations company based in Cluj-Napoca. We used wordpress to be easy for managing the content of the website.</p>
                                     </div>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@ class RecentWork extends React.Component {
 
                                     <div className="works-content">
                                         <h3>Cryptoz</h3>
-                                        <p>A multi-functional cryptocurrency mining platform, based in UK.</p>
+                                        <p>A multi-functional cryptocurrency mining platform, based in UK. We used Ruby on Rails for the backend and ReactJS for the frontend. Its a web application we are very proud of.</p>
                                     </div>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@ class RecentWork extends React.Component {
 
                                     <div className="works-content">
                                         <h3>Glowliss Organic</h3>
-                                        <p>An ecommerce store in the beaty and health industry. Based in NYC</p>
+                                        <p>An ecommerce store in the beaty and health industry. Based in NYC. This store is created in shopify, and we worked with the client to customize the theme.</p>
                                     </div>
                                 </div>
                             </div>
@@ -88,8 +88,8 @@ class RecentWork extends React.Component {
                                     <img src={require("../../images/works-image/gphoto.jpg")} alt="gphoto" />
 
                                     <div className="works-content">
-                                        <h3>GPhoto</h3>
-                                        <p>A photo portfolio website for a true artist, based in Romania.</p>
+                                        <h3>Gphoto Gallery | Fine Art Photography</h3>
+                                        <p>A photo portfolio website for a true artist, based in Romania. This is a portfolio, but an online store as well. Its in shopify and uses a custom theme.</p>
                                     </div>
                                 </div>
                             </div>
@@ -102,7 +102,7 @@ class RecentWork extends React.Component {
                                     
                                     <div className="works-content">
                                         <h3>Home Corner</h3>
-                                        <p>An ecommerce store for a decor company, based in the USA.</p>
+                                        <p>An ecommerce store for a decor company, based in the USA. Shopify it is. Its easy to fulfill orders and to manage your whole business.</p>
                                     </div>
                                 </div>
                             </div>
@@ -114,8 +114,8 @@ class RecentWork extends React.Component {
                                     <img src={require("../../images/works-image/norbertorok.jpg")} alt="norbertorok" />
 
                                     <div className="works-content">
-                                        <h3>Portfolio website</h3>
-                                        <p>A portfolio website for a web developer based in Romania.</p>
+                                        <h3>Presentation website</h3>
+                                        <p>A website for a web developer based in Romania. AngularJS is what we used for this website.</p>
                                     </div>
                                 </div>
                             </div>
@@ -128,7 +128,7 @@ class RecentWork extends React.Component {
 
                                     <div className="works-content">
                                         <h3>Pixelstocode</h3>
-                                        <p>A company that's all about development and design.</p>
+                                        <p>A company that's all about development, design and online services. This is exactly the website you are looking at, right now. We used NextJS for this app.</p>
                                     </div>
                                 </div>
                             </div>
@@ -141,7 +141,7 @@ class RecentWork extends React.Component {
 
                                     <div className="works-content">
                                         <h3>Rollins shoes</h3>
-                                        <p>A NYC based ecommerce store, that sells handmade shoes.</p>
+                                        <p>A NYC based ecommerce store, that sells handmade shoes. An online store built in shopify.</p>
                                     </div>
                                 </div>
                             </div>
