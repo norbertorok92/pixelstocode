@@ -13,6 +13,7 @@ class MyDocument extends Document {
                     <meta name="description" content="We are a world-class web development agency and we build amazing digital products. Seamless collaboration, total transparency, secure delivery." />
                     <link rel="canonical" href="https://www.pixelstocode.com/" />
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+                    <meta name="google-site-verification" content="8aeMHQwULYaar6LhpHEbSREJzUSVby0mOHh2yScJ0Xw" />
                     <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
                     <meta property="og:title" content="Pixelstocode | Web Development Agency | Seamless collaboration" />
                     <meta property="og:type" content="website" />
