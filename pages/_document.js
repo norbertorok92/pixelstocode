@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import MessengerChat from "../utils/MessengerChat";
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -56,6 +57,12 @@ class MyDocument extends Document {
             loggedInGreeting="Hi! How can we help you?"
             loggedOutGreeting="Hi! How can we help you?"
           />
+
+          <MessengerCustomerChat
+    pageId="102395918024674"
+    appId="300623377613633"
+    htmlRef="fb-msgr"
+  />
           <Main />
           <NextScript />
         </body>
