@@ -70,7 +70,6 @@ class MessengerChat extends Component {
     }
 
     componentDidMount() {
-      console.log('WINDOW', window)
       this.setFbAsyncInit()
       this.reloadSDKAsynchronously()
     }
