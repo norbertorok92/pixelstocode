@@ -10,6 +10,7 @@ import Funfacts from '../components/common/Funfacts';
 import Partner from '../components/common/Partner';
 import Footer from '../components/Layouts/Footer';
 import GoTop from '../components/Layouts/GoTop';
+import WhyChoose from '../components/web-hosting-services/WhyChoose';
 
 class Index extends React.Component {
     render() {
@@ -25,9 +26,9 @@ class Index extends React.Component {
                     <MainBanner />
                     <BoxArea />
                     <ServicesArea />
+                    <WhyChoose />
                     <RecentWork />
                     <Funfacts />
-                    <Partner />
                     <Footer />
                     <GoTop scrollStepInPx="50" delayInMs="16.66" />
                 </Preloader>

@@ -33,7 +33,7 @@ class Error extends React.Component {
                                     <h3>
                                         {this.props.statusCode
                                             ? `An error ${this.props.statusCode} occurred on server`
-                                            : 'An error occurred on client'
+                                            : 'An error occurred...'
                                         }
                                     </h3>
                                     <p>The page you are looking for might have been removed had its name changed or is temporarily unavailable.</p>

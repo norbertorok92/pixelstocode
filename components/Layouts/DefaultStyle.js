@@ -75,26 +75,9 @@ class DefaultStyle extends React.Component {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link activeClassName="active" href="/services">
-                                            <a className="nav-link">Services <Icon.ChevronDown /></a>
+                                        <Link activeClassName="active" href="/portfolio">
+                                            <a className="nav-link">Portfolio </a>
                                         </Link>
-                                        <ul className="dropdown-menu">
-                                            <li className="nav-item">
-                                                <Link activeClassName="active" href="/dev-services">
-                                                    <a className="nav-link"><Icon.Code />&nbsp; Web Development Services</a>
-                                                </Link>
-                                            </li>
-                                            <li className="nav-item">
-                                                <Link activeClassName="active" href="/web-hosting-services">
-                                                    <a className="nav-link"><Icon.Server />&nbsp; Web Hosting Services</a>
-                                                </Link>
-                                            </li>
-                                            <li className="nav-item">
-                                                <Link activeClassName="active" href="/digital-strategy">
-                                                    <a className="nav-link"><Icon.Target />&nbsp; Digital Strategy</a>
-                                                </Link>
-                                            </li>
-                                        </ul>
                                     </li>
 
                                     <li className="nav-item">
@@ -102,14 +85,15 @@ class DefaultStyle extends React.Component {
                                             <a className="nav-link">About Us</a>
                                         </Link>
                                     </li>
+
+                                    <li className="nav-item">
+                                        <Link activeClassName="active" href="/contact">
+                                            <a className="nav-link">Contact Us</a>
+                                        </Link>
+                                    </li>
                                 </ul>
                             </div>
     
-                            <div className="others-option">
-                                <Link href="/contact">
-                                    <a className="btn btn-light">Speak with an Expert</a>
-                                </Link>
-                            </div>
                         </nav>
                     </div> 
                 </div>

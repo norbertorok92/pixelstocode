@@ -13,8 +13,8 @@ export default class Partner extends React.Component {
                             <a className="btn btn-primary">Contact Us</a>
                         </Link>
                         <span>
-                            <Link href="/services">
-                                <a>Or, learn more about our development services.</a>
+                            <Link href="/about">
+                                <a>Or, learn more about us.</a>
                             </Link>
                         </span>
                     </div>

@@ -13,30 +13,6 @@ export default class SiteMap extends Component {
                 <priority>1.0</priority>
               </url>
               <url>
-                <loc>https://www.pixelstocode.com/services</loc>
-                <lastmod>2020-05-04</lastmod>
-                <changefreq>daily</changefreq>
-                <priority>1.0</priority>
-              </url>
-              <url>
-                <loc>https://www.pixelstocode.com/dev-services</loc>
-                <lastmod>2020-05-04</lastmod>
-                <changefreq>daily</changefreq>
-                <priority>1.0</priority>
-              </url>
-              <url>
-                <loc>https://www.pixelstocode.com/web-hosting-services</loc>
-                <lastmod>2020-05-04</lastmod>
-                <changefreq>daily</changefreq>
-                <priority>1.0</priority>
-              </url>
-              <url>
-                <loc>https://www.pixelstocode.com/digital-strategy</loc>
-                <lastmod>2020-05-04</lastmod>
-                <changefreq>daily</changefreq>
-                <priority>1.0</priority>
-              </url>
-              <url>
                 <loc>https://www.pixelstocode.com/about</loc>
                 <lastmod>2020-05-04</lastmod>
                 <changefreq>daily</changefreq>

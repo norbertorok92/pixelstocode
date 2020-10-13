@@ -5,6 +5,7 @@ import Footer from '../components/Layouts/Footer'
 import GoTop from '../components/Layouts/GoTop'
 import PageTitle from '../components/services/PageTitle'
 import Services from '../components/services/Services'
+import Partner from '../components/common/Partner';
 
 class Features extends React.Component {
     render() {
@@ -18,6 +19,7 @@ class Features extends React.Component {
                 <Header />
                 <PageTitle />
                 <Services />
+                <Partner />
                 <Footer />
                 <GoTop scrollStepInPx="50" delayInMs="16.66" />
             </Preloader>

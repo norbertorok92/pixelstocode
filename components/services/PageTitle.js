@@ -6,8 +6,9 @@ export default function PageTitle() {
             <div className="d-table">
                 <div className="d-table-cell">
                     <div className="section-title">
-                        <h2>Digital services</h2>
+                        <h2>Proud Projects That Make Us Stand Out</h2>
                         <div className="bar"></div>
+                        <h5>Some highlights of our favorite projects we've done for forward thinking clients.</h5>
                     </div>
                 </div>
             </div>
