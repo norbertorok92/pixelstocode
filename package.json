@@ -9,7 +9,7 @@
     "start": "NODE_ENV=production node server.js -p $PORT"
   },
   "engines": {
-    "node": "12.12.0",
+    "node": "12.18.3",
     "npm": "6.11.3"
   },
   "keywords": [],
